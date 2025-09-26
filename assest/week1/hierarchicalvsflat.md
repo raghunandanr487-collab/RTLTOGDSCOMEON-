@@ -20,5 +20,11 @@ In  this image I have faltenn out the hierarchies
 
 
 
+these are command to in yosys to write the multiple_modules verilog files
+
+
+
+<img width="937" height="879" alt="Image" src="https://github.com/user-attachments/assets/8148a99f-3040-465b-a511-68c6854ee500" />
+
 
 

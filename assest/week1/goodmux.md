@@ -1,4 +1,4 @@
-this is the good_mux getting after the compilation in yosys
+this is the good_mux.net getting after the writing the netlist file  in yosys 
 
 
 [good_mux_scrrenshot]

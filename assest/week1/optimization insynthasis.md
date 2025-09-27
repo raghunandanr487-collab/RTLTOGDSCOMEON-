@@ -9,7 +9,14 @@ here else consditon is not written so there will be glitches
 
 now we will see the gtkwave of it 
 
+in this we can see the giltch that there is inferred latch is created 
 
+<img width="814" height="762" alt="Image" src="https://github.com/user-attachments/assets/4fc54b77-4578-4d63-82d5-12a449263e11" />
+
+
+now we will see the synthasis desgin of it 
+
+in this we can see clearly there is dff which is acting as a latch 
 
 
 

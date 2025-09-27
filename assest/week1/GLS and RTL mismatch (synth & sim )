@@ -10,6 +10,26 @@ in first image the file name bad_mux is used
 
 
 
-now we will see the simulation gtkwave of bad_mux
+now we will see the simulation gtkwave of bad_mux and this we can this y is only change when the sel will change 
+and  if i0 and i1 is changing but if sel is out chnage it will not show the change value it shows 
+perviously recorded value only
+
+
+
+
+<img width="819" height="757" alt="Image" src="https://github.com/user-attachments/assets/3a7d218a-8e22-4b38-bb66-af2c004f23f2" />
+
+
+
+now if we sysnthsis it then it will come pre
+
+
+
+
+
+
+
+
+
 
 

@@ -61,6 +61,14 @@ after synthasis we go the dot file like
 
 
 now we will the image of the gtkwave after synthasis and writing the netlist file 
+and  in this we can clearly see the mismatch between the both the wave of sysnthasis and simulation
+
+<img width="823" height="755" alt="Image" src="https://github.com/user-attachments/assets/da17af4c-2fea-4d20-b127-0dbcab7f0176" />
+
+
+
+
+so conclusion is that on doing the bad coding we get the dufficulties in synthasis and simulation  so always give the else conditon ,it just an example and use the always(*) so it will causes to occurs always block when any of input is changes!! 
 
 
 

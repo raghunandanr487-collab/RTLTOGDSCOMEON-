@@ -18,6 +18,12 @@ now we will see the synthasis desgin of it
 
 in this we can see clearly there is dff which is acting as a latch 
 
+<img width="825" height="766" alt="Image" src="https://github.com/user-attachments/assets/f5ccc3ea-0db0-4e30-b59f-399118820d03" />
 
 
+
+
+now we will the another example of it file name income_if2.v
+
+image of it 
 

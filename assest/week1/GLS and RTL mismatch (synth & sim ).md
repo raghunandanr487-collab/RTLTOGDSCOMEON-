@@ -21,9 +21,20 @@ perviously recorded value only
 
 
 
-now if we sysnthsis it then it will come pre
+now if we sysnthsis it then it will come prefect if the input is changhing the then the updated 
+values we will get here so
 
 
+
+<img width="825" height="751" alt="Image" src="https://github.com/user-attachments/assets/537bcf1f-ec9f-40b3-bbc0-4588083758b8" />
+
+
+there is the mismatch in the simulation and synthasis !!
+
+
+NOW WE WILL LOOK AT OTHER EXAMPLE 
+
+the filename blocking_caveat.v 
 
 
 

@@ -37,4 +37,15 @@ image of it
 Now we will see the gtkwave of it 
 
 
+<img width="830" height="752" alt="Image" src="https://github.com/user-attachments/assets/1edac466-4eab-464a-8148-99210d720852" />
+
+
+
+ we get dot file after the synthasis
+
+
+ 
+
+
+
 

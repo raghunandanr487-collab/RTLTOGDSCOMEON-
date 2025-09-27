@@ -38,7 +38,7 @@ opt_check4 version and this is like
 multiple_module_opt file image after sysnthesis
 
 
-
+<img width="919" height="866" alt="Image" src="https://github.com/user-attachments/assets/cbbac99a-d802-4c0f-b648-9bc1576cc948" />
 
 
 

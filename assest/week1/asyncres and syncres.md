@@ -17,3 +17,15 @@ next image is shown is the asyncset without dependence of the clk
 
 next image is of the syncres which means it will change the value of Q only when the clk at posedge ,irrespetive of the sync_reset
 
+<img width="931" height="892" alt="Image" src="https://github.com/user-attachments/assets/40b2d589-c8e0-4b0f-824a-358570d13e32" />
+
+
+
+now I have shown the  dff_asyncres dot file in which it is showing the result after synthesis and there is shown as one inverter because we are reseting the output so ,inverter is there and 
+dff is there and there are two cells ,
+here is the image of it 
+
+
+
+
+

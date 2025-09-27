@@ -33,6 +33,11 @@ next one is the syncres dot file which there are two cells  one of the nor and t
 
 [image ]
 
+<img width="933" height="918" alt="Image" src="https://github.com/user-attachments/assets/0bfdcd71-e218-4c76-a9bd-9c5fbd9ccff4" />
+
+
+
+
 
 
 

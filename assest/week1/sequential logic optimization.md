@@ -19,7 +19,25 @@ image of gtk wave is
 
 
 
+
+
+
+
 now  like wise it digram look like this 
+
+
+
+<img width="923" height="856" alt="Image" src="https://github.com/user-attachments/assets/ec79d86f-1d52-4830-85ea-85aca74b29eb" />
+
+
+
+there is the another file in which the dff_const3 in which there are the both reset and set are 
+there and it look like this when i simplified it 
+
+
+
+
+
 
 
 

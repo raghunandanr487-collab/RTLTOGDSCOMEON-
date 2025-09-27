@@ -25,7 +25,7 @@ image of gtk wave is
 
 now  like wise it digram look like this 
 
-
+<img width="926" height="864" alt="Image" src="https://github.com/user-attachments/assets/b2398e19-8b27-4c8c-8717-273e6a657910" />
 
 
 

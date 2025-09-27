@@ -27,7 +27,7 @@ now  like wise it digram look like this
 
 
 
-<img width="923" height="856" alt="Image" src="https://github.com/user-attachments/assets/ec79d86f-1d52-4830-85ea-85aca74b29eb" />
+
 
 
 
@@ -36,7 +36,7 @@ there and it look like this when i simplified it
 
 
 
-
+<img width="912" height="868" alt="Image" src="https://github.com/user-attachments/assets/74e771f4-4160-4cc6-9a7a-d52f8c93ac99" />
 
 
 

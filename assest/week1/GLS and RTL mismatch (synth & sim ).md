@@ -56,6 +56,18 @@ now we will look at the simulation gtkwave of it
 after synthasis we go the dot file like 
 
 
+<img width="819" height="763" alt="Image" src="https://github.com/user-attachments/assets/df632320-811b-4777-8c46-c19b1fe4f8ac" />
+
+
+
+now we will the image of the gtkwave after synthasis and writing the netlist file 
+
+
+
+
+
+
+
 
 
 

@@ -26,6 +26,8 @@ dff is there and there are two cells ,
 here is the image of it 
 
 
+<img width="933" height="892" alt="Image" src="https://github.com/user-attachments/assets/0e93bb8b-817f-4dca-87fd-a9c67bcc74da" />
+
 
 
 

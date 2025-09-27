@@ -48,6 +48,13 @@ the filename blocking_caveat.v
 now we will look at the simulation gtkwave of it
 
 
+<img width="823" height="763" alt="Image" src="https://github.com/user-attachments/assets/98dc6d63-4f81-4759-b312-577e1578ec18" />
+
+
+
+
+after synthasis we go the dot file like 
+
 
 
 

@@ -1,0 +1,14 @@
+NOW  IN THIS FILE WE WILL LOOK INTO CASE CONDITION AND IF ,ELSE  HOW TO WRITE IT CORRECTLY SO WE GET THE DESIERD OUTPUT 
+
+
+
+first image is the verilog file of incomp_if.v
+
+
+
+
+
+
+
+
+

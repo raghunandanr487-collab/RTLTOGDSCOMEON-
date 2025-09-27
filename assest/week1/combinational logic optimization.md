@@ -5,7 +5,7 @@ there is the specific command to clean the unsed signal is opt_clean -purge
 
 like opt_check 
 
-
+<img width="919" height="875" alt="Image" src="https://github.com/user-attachments/assets/dd131449-7579-4414-93be-6f6f6e944f0b" />
 
 
 

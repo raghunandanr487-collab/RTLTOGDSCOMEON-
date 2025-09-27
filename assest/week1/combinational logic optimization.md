@@ -31,6 +31,15 @@ opt_check3 in this two mux are converted into the three input AND gate and we ge
 
 opt_check4 version and this is like 
 
+<img width="921" height="860" alt="Image" src="https://github.com/user-attachments/assets/d09a2075-8837-488f-87a3-4a2941946854" />
+
+
+
+multiple_module_opt file image after sysnthesis
+
+
+
+
 
 
 

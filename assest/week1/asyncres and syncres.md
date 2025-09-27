@@ -29,5 +29,12 @@ here is the image of it
 <img width="933" height="892" alt="Image" src="https://github.com/user-attachments/assets/0e93bb8b-817f-4dca-87fd-a9c67bcc74da" />
 
 
+next one is the syncres dot file which there are two cells  one of the nor and there is dependence on the clk and it also give the simplest version removing unsed signals also 
+
+[image ]
+
+
+
+
 
 

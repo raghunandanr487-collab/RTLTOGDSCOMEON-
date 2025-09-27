@@ -23,7 +23,18 @@ in this we can see clearly there is dff which is acting as a latch
 
 
 
+
+
+
+
 now we will the another example of it file name income_if2.v
 
 image of it 
+<img width="826" height="754" alt="Image" src="https://github.com/user-attachments/assets/2ccf98c9-15dc-4618-9f98-2cf9649522c8" />
+
+
+
+Now we will see the gtkwave of it 
+
+
 

@@ -26,6 +26,10 @@ values we will get here so
 
 
 
+
+
+
+
 <img width="825" height="751" alt="Image" src="https://github.com/user-attachments/assets/537bcf1f-ec9f-40b3-bbc0-4588083758b8" />
 
 
@@ -35,6 +39,14 @@ there is the mismatch in the simulation and synthasis !!
 NOW WE WILL LOOK AT OTHER EXAMPLE 
 
 the filename blocking_caveat.v 
+
+
+<img width="823" height="752" alt="Image" src="https://github.com/user-attachments/assets/1a5003f3-ec31-4c9e-bee7-b0ed20014ac3" />
+
+
+
+now we will look at the simulation gtkwave of it
+
 
 
 

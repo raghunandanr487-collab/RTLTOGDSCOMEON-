@@ -24,6 +24,16 @@ likewise there is opt_check2 file
 
 opt_check3 in this two mux are converted into the three input AND gate and we get simplefied version of it.
 
+<img width="932" height="879" alt="Image" src="https://github.com/user-attachments/assets/f349ca99-cffa-4ee9-91b5-acb700d811e1" />
+
+
+
+
+opt_check4 version and this is like 
+
+
+
+
 
 
 

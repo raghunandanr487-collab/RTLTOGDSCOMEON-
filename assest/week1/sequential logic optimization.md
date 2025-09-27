@@ -15,7 +15,11 @@ other file  dff_const2 here gtkwave is like this and Q is always 1 so we can red
 image of gtk wave is 
 
 
+<img width="923" height="856" alt="Image" src="https://github.com/user-attachments/assets/ec79d86f-1d52-4830-85ea-85aca74b29eb" />
 
+
+
+now  like wise it digram look like this 
 
 
 

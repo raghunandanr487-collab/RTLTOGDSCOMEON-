@@ -113,3 +113,27 @@ image of babySoc
 
 <img width="257" height="196" alt="Image" src="https://github.com/user-attachments/assets/fad80a90-0665-40ed-b8eb-7a178571c4a1" />
 
+
+## Why BabySoC is a simplified model for learning SoC concepts.
+
+1. Minimal Complexity
+
+- Real SoCs (ARM, Intel, AMD) have millions of transistors, multiple cores, caches, high-speed    interconnects, etc.
+
+-  BabySoC strips this down to the essentials (CPU, DAC, PLL, GPIO, Memory), so beginners can understand the core ideas.
+
+2.Easy-to-Understand Blocks
+
+- Each block (e.g., 10-bit DAC, simple CPU, PLL) is designed in a simplified way.
+
+- Makes it possible for students to learn without deep VLSI background.
+
+3. Step-by-Step Exposure
+
+- Covers the SoC design journey gradually:
+Functional Modeling → RTL Simulation → Synthesis → (optionally) Physical Design.
+
+- Helps learners see the “big picture” of chip design.
+
+
+IN SHORT= SMALL ,CLEAR,AND EDUCATIONALAND IT IS A PERFECT STARTING POINT FOR sOC DESIGN LEARNING .

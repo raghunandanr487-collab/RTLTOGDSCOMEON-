@@ -67,8 +67,23 @@ on the single chip
 
 
 
-des
+## desgin flow of Soc
 
+1. Specification: Clearly define the desired function of the SoC. What are the applications, performance goals, power limitations, etc.?
+
+
+2. Logical design: Describe the desired behavior in a hardware description language (HDL) and simulate the functional behavior to verify it is correct.
+
+3. Logic synthesis: Automatically translate HDL behavioral description into a list of transistor elements and their interconnections, called the “netlist.”
+
+
+4. Physical design: Choose the appropriate transistor components, determine their physical locations on the silicon, and the trajectories of the interconnection wires between them.
+
+5. Signoff: Use verification software like Ansys RedHawk-SC to analyze and validate the design to ensure proper functionality and performance. Verify that the layout meets all manufacturability requirements. Chips cannot be repaired, so if there is any mistake in the design, all the manufactured chips must be thrown away and the design has to be revised. This is why it’s so important to check and verify before proceeding to manufacturing.
+
+6. Tapeout: Generate the final graphic files for creating the photomasks of the layout and send to the manufacturer for production.
+
+7. Testing and packaging: Test to confirm the SoC delivers on the specifications and is ready for use. The silicon chip is then encapsulated in a protective package.
 
 
 

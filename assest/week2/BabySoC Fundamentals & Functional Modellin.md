@@ -87,3 +87,28 @@ on the single chip
 
 
 
+## Role of Functional Modelling Before RTL & Physical Design
+
+1. System-Level Verification
+
+- Ensures the concept of the SoC (CPU, DAC, PLL, GPIO, etc.) works logically before spending time on detailed RTL.
+
+ 2. Early Architecture Exploration
+
+ - Allows trying different architectures (e.g., 8-bit vs 10-bit DAC, simple vs pipelined CPU).
+
+ 3. Faster Simulation
+
+ -  Functional models (usually in C, SystemC, or high-level Verilog) simulate much faster than RTL.
+
+ -  Useful for validating large SoC behavior without waiting hours for RTL simulation.
+
+  4. Smooth Transition to Physical Design
+
+ -  By validating functionality early, RTL → Synthesis → Place & Route flow becomes smoother.
+
+ -  Reduces costly redesign cycles in backend.
+
+
+
+

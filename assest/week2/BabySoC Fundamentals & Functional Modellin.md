@@ -8,6 +8,12 @@ soc means the system on chip , by the name of it we got to know that all the cpu
 microcontrollers,memory,I/O ports(input/output),GPU,Digital signal processing all these are present
 on the single chip 
 
-###
+###Key Parts of an Soc 
+
+1. CPU(Centeral Processing Unit):
+   - it is the brain of the soc ,handling all main instructions and decisions
+
+
+
 
 

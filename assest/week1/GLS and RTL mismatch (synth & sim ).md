@@ -1,5 +1,15 @@
 IN This we will look into the synth and simulation mismatch both of the gtkwave will come will be different 
 
+## what is GLS
+- running the testbench with netlist as desgin under test
+- netlist is logically same as RTL  code
+
+## why GLS
+
+- verify the logical correctness of the desgin after synthesis
+- Ensuring the timing desgin is meet
+- for this GLS needs to run with delay annotion 
+
 
 
 in first image the file name bad_mux is used 

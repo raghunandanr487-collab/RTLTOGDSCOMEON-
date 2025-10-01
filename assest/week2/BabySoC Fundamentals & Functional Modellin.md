@@ -109,6 +109,7 @@ on the single chip
 
  -  Reduces costly redesign cycles in backend.
 
+image of babySoc
 
 
 

@@ -111,5 +111,5 @@ on the single chip
 
 image of babySoc
 
-
+<img width="257" height="196" alt="Image" src="https://github.com/user-attachments/assets/fad80a90-0665-40ed-b8eb-7a178571c4a1" />
 

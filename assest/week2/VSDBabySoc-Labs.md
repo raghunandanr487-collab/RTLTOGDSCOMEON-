@@ -64,9 +64,13 @@ The result of the simulation (i.e. pre_synth_sim.vcd) will be stored in the outp
 
 now we will see the image of the 
 
+- there are the two most imaportant signal are clk and out . clk is provided by the ppl and out 
+  which is in blue colour wave it is the analog output of the DAC. 
+
+- there are other signal also VREFH and VREFL ,REF signal is also there and VCO_IN signal is      trying to get syncronized with it ,once it get syncronized it locked it frequency to refence     ferquency
 
 
-
+<img width="1503" height="1025" alt="Image" src="https://github.com/user-attachments/assets/7e99fb5f-6320-4b4a-87cc-5e75f2bfcce6" />
 
 
 

@@ -137,3 +137,14 @@ Functional Modeling → RTL Simulation → Synthesis → (optionally) Physical D
 
 
 IN SHORT= SMALL ,CLEAR,AND EDUCATIONALAND IT IS A PERFECT STARTING POINT FOR sOC DESIGN LEARNING .
+
+
+
+## Digram of ppl
+
+
+
+
+
+
+

@@ -52,9 +52,17 @@ AFTER ALL THIS INSTALLATION WE HAVE TO COVERT THE FILE OF RMYTH TO .V FILE SO WE
 
 ### second we can clone this repos in an arbitary directory
 
+- $ cd ~
+- $ git clone https://github.com/manili/VSDBabySoC.git
 
+### third to make the pre_synth_sim.vcd:
 
+- $ cd VSDBabySoC
+- $ make pre_synth_sim
 
+The result of the simulation (i.e. pre_synth_sim.vcd) will be stored in the output/pre_synth_sim directory.
+
+now we will see the image of the 
 
 
 

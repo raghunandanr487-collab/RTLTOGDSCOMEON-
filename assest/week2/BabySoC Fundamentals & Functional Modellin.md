@@ -140,11 +140,11 @@ IN SHORT= SMALL ,CLEAR,AND EDUCATIONALAND IT IS A PERFECT STARTING POINT FOR sOC
 
 
 
-## Digram of ppl
+#  Digram of pll
 
 
+  <img width="850" height="595" alt="Image" src="https://github.com/user-attachments/assets/0b7e40ba-3923-4c0f-9ee3-d7e8d412e2ae" />
 
-
-
-
+  - In this we can see why it i important it use pll int the Soc it generate the multiple frequencies for different psrt of the Soc
+  
 

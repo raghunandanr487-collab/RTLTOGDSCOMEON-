@@ -140,7 +140,7 @@ IN SHORT= SMALL ,CLEAR,AND EDUCATIONALAND IT IS A PERFECT STARTING POINT FOR sOC
 
 
 
-#  Digram of pll
+#  Digram of PLL
 
 
   <img width="850" height="595" alt="Image" src="https://github.com/user-attachments/assets/0b7e40ba-3923-4c0f-9ee3-d7e8d412e2ae" />
@@ -155,3 +155,10 @@ IN SHORT= SMALL ,CLEAR,AND EDUCATIONALAND IT IS A PERFECT STARTING POINT FOR sOC
 - VCO (Voltage-Controlled Oscillator): This is the clock generator ⏱️. The smoother signal from the loop filter tells it exactly how fast to generate a new clock signal.
   
 - Frequency Divider: This part ➗ takes the new, fast clock signal and divides it down so it can be compared to the original input clock. This feedback loop makes sure the PLL stays perfectly stable and on target.
+
+
+
+
+
+
+

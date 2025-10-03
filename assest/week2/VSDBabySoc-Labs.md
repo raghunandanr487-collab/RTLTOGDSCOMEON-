@@ -45,10 +45,10 @@ AFTER ALL THIS INSTALLATION WE HAVE TO COVERT THE FILE OF RMYTH TO .V FILE SO WE
 
 ### First we need to install some important packages:
 
-$ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
-$ sudo chmod 666 /var/run/docker.sock
-$ cd ~
-$ pip3 install pyyaml click sandpiper-saas
+- $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
+- $ sudo chmod 666 /var/run/docker.sock
+- $ cd ~
+- $ pip3 install pyyaml click sandpiper-saas
 
 ### second we can clone this repos in an arbitary directory
 

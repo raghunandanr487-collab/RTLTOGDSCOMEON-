@@ -1,6 +1,6 @@
 
 
-## Downlode
+## ⏬ Downlode
 
 - for the simulation of the VSDBabySoc we have  to do multiple git cloning so we need 
 
@@ -43,19 +43,19 @@ these are the following links
 AFTER ALL THIS INSTALLATION WE HAVE TO COVERT THE FILE OF RMYTH TO .V FILE SO WE NEED MORE PACKAGES TO INSTALL 
 
 
-### First we need to install some important packages:
+### ▶️ First we need to install some important packages:
 
 - $ sudo apt install make python python3 python3-pip git iverilog gtkwave docker.io
 - $ sudo chmod 666 /var/run/docker.sock
 - $ cd ~
 - $ pip3 install pyyaml click sandpiper-saas
 
-### second we can clone this repos in an arbitary directory
+### ▶️ second we can clone this repos in an arbitary directory
 
 - $ cd ~
 - $ git clone https://github.com/manili/VSDBabySoC.git
 
-### third to make the pre_synth_sim.vcd:
+### ▶️ third to make the pre_synth_sim.vcd:
 
 - $ cd VSDBabySoC
 - $ make pre_synth_sim

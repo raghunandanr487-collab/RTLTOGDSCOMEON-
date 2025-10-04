@@ -1,6 +1,6 @@
 
 
-# BabySoC Fundamentals & Functional Modelling
+# ⭐BabySoC Fundamentals & Functional Modelling
 
 ### what is babysoc?
 
@@ -8,7 +8,7 @@ soc means the system on chip , by the name of it we got to know that all the cpu
 microcontrollers,memory,I/O ports(input/output),GPU,Digital signal processing all these are present
 on the single chip 
 
-### Key Parts of an Soc 
+### 🔑Key Parts of an Soc 
 
 1. CPU(Centeral Processing Unit):
    - it is the brain of the soc ,handling all main instructions and decisions.
@@ -33,7 +33,7 @@ on the single chip
 
 
 
-### advanatge of Soc:
+### 🉐advanatge of Soc:
 
 -  Power efficiency: it is the main part in which nowdays all engineers are looking for ,efficient power management so Replacement of large components and circuits with SOCs leads to a significant reduction in power consumption and the required PPA (power, performance, and area) metrics can be achieved.
 
@@ -44,7 +44,7 @@ on the single chip
 - Cheaper: A single SoC chip is cheaper than the set of multiple, separate chips that would otherwise be needed.
 
 
-### Disadvantage of Soc:
+### 😞Disadvantage of Soc:
 
 - Single point of failure: With all components in a single chip, a failure in one component affects the entire system (which limits upgrades, too).
 
@@ -55,7 +55,7 @@ on the single chip
 - Flexibility: An SoC is ideally suited to its intended task but has limited scope to be applied for any other task.
 
 
-### Application of Soc:
+### ⚛️Application of Soc:
 
 - Mobile devices: SoCs integrate wireless connectivity and multimedia capabilities in smartphones and tablets.
 
@@ -67,7 +67,7 @@ on the single chip
 
 
 
-## desgin flow of Soc
+## ♠️desgin flow of Soc
 
 1. Specification: Clearly define the desired function of the SoC. What are the applications, performance goals, power limitations, etc.?
 
@@ -87,7 +87,7 @@ on the single chip
 
 
 
-## Role of Functional Modelling Before RTL & Physical Design
+## 🩶Role of Functional Modelling Before RTL & Physical Design
 
 1. System-Level Verification
 
@@ -140,7 +140,7 @@ IN SHORT= SMALL ,CLEAR,AND EDUCATIONALAND IT IS A PERFECT STARTING POINT FOR sOC
 
 
 
-#  Digram of PLL
+# ⭐ Digram of PLL
 
 
   <img width="850" height="595" alt="Image" src="https://github.com/user-attachments/assets/0b7e40ba-3923-4c0f-9ee3-d7e8d412e2ae" />

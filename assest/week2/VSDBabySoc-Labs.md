@@ -74,9 +74,9 @@ now we will see the image of the
 
 signal which are shown in this image are
 
-- 🥇 CLK : it is the siganl which is commming from the ppl output .
+- 🥇 CLK : it is the siganl which is commming from the pll output .
 - 🥈 D[9:0] : It is the signal of digital bits comes from the core .
-- 🥉 OUT: It is the analog signal which cna simulate analog values.it is the output wire real             out signal of the Dac module . this signal comes from the DAC,originally.
+- 🥉 OUT: It is the analog signal which cna simulate analog values.it is the output wire real out signal of the Dac module . this signal comes from the DAC,originally.
 
 
 

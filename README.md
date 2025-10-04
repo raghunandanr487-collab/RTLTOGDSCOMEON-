@@ -1,1 +1,1 @@
-# RTLTOGDSCOMEON- all thing are in assest
+# RTLTOGDSCOMEON- all things are in assest

@@ -6,16 +6,16 @@
 
    ### Key Points of Gate-Level Simulation (GLS) for BabySoC
 
-    -1. Timing-Aware Verification:
+    - 1. Timing-Aware Verification:
 GLS uses Standard Delay Format (SDF) files to include real timing information, ensuring that the SoC meets timing constraints. This helps verify that the design behaves correctly under practical conditions.
 
-  -2. Post-Synthesis Design Validation:
+  - 2. Post-Synthesis Design Validation:
 Gate-Level Simulation confirms that the logical functionality of the design remains accurate after synthesis. It also helps detect potential issues such as glitches or metastability in the synthesized netlist.
 
--3.  Simulation Tools:
+- 3.  Simulation Tools:
 Simulators like Icarus Verilog (or similar) are used to compile and run the gate-level netlist, while waveforms are analyzed using tools like GTKWave.
 
--4. Significance for BabySoC:
+- 4. Significance for BabySoC:
 BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DAC. GLS ensures that these modules work together correctly and adhere to timing requirements in the synthesized design
    
 

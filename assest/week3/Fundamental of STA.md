@@ -14,13 +14,31 @@
 - it means that the signal arrives at which time after the clock edge that lunched it.
 - if the clk time period is of 1ns and it arrives at 0.8ns and that 0.8ns is arrival time.
   
-##### ®️ Required time 
+#### ®️ Required time 
 
 - the latest time by which the signal must arrive at point to meet the timing reqirnments.
 - RT= CLOCK TIME -SETUP TIME .
 
 #### 🏆 Slack
 - it is the reqire time - arrival time for the hold analiysis so it should be positive(hold analysis)
+- it should be positive ➕ for met timing reqiurnment
+
+
+#### ♈ hold and setput
+- SETUP(max delay) : Latest time by which data must arrive before the next active clock edge
+- HOLD(min dealy): Earliest time after the clock edge that data must remain stable
+
+
+
+### types of timing analysis
+  
+  #### 1. 🧜‍♂️ reg to reg
+  #### 2. 🐪 in2reg
+  #### 3. 🍬 reg2out
+  #### 4. 🐼 in2out
+
+
+
   
 
  

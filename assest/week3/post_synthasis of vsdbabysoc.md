@@ -45,6 +45,10 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 
 <img width="476" height="309" alt="Image" src="https://github.com/user-attachments/assets/34af402b-b21f-40f6-b6db-0d4ff2b0c059" />
 
+<img width="629" height="670" alt="Image" src="https://github.com/user-attachments/assets/161b668d-85b7-4375-bba1-567029250f32" />
+
+### 🌼 next step is to optimization and d flipflop mapping by using command dfflibmap -liberty /dierctory/
+
 
 
 

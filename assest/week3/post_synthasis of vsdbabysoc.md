@@ -49,6 +49,20 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 
 ### 🌼 next step is to optimization and d flipflop mapping by using command dfflibmap -liberty /dierctory/
 
+### 📈 another step is to clean or remove the unused cell
+
+<img width="935" height="228" alt="Image" src="https://github.com/user-attachments/assets/bb7243b2-f1bf-43a6-a278-92233c63d4df" />
+
+<img width="856" height="78" alt="Image" src="https://github.com/user-attachments/assets/20a3c46a-1a9c-4a24-89c7-5ca40503018b" />
+
+- 💠 now if we write the state then it will print the state
+
+ <img width="604" height="913" alt="Image" src="https://github.com/user-attachments/assets/20519e2b-6858-40f7-b4f9-4fcbbaf0b3c9" />
+
+<img width="481" height="397" alt="Screenshot 2025-10-05 133953" src="https://github.com/user-attachments/assets/d64bbe13-051e-4f48-ab68-d6efb6ff25da" />
+
+
+
 
 
 

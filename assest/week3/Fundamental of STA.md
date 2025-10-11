@@ -43,8 +43,9 @@
 
 
 
-
-  
+##### in the image you can see the worst case path and best case path so in hold analysis we take 
+the best case path and you can also see the arrival time and reqire time and slack and 
+##### ⚫ circle one is the delay of the cell and wire have other delay also   
 
  
 

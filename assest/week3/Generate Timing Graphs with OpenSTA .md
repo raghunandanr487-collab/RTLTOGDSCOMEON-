@@ -83,6 +83,10 @@ create_clock [get_pins {pll/CLK}] -name clk -period 11
  set list_of_lib_files(12) "sky130_fd_sc_hd__ss_n40C_1v44.lib"
  set list_of_lib_files(13) "sky130_fd_sc_hd__ss_n40C_1v76.lib"
 ```
+
+## In this way i have wote my files 
+
+
 ```bash
 # === Read Custom Block Libraries ===
 read_liberty /data/Desktop/vlsi/vsd/VSDBabySoC/src/lib/avsddac.lib
@@ -138,10 +142,27 @@ for {set i 1} {$i <= [array size list_of_lib_files]} {incr i} {
 }
 ```
 
+### these are my files which i have generated
 
 
+<img width="547" height="642" alt="image" src="https://github.com/user-attachments/assets/ee6207bd-b443-4252-bdf8-bc9edd622197" />
 
 
+| **Library Corner**                | **Worst Setup Slack (WNS)** | **Worst Hold Slack (Min Slack)** | **Worst Setup Slack (Max Slack)** | **Total Negative Slack (TNS)** |
+| --------------------------------- | --------------------------- | -------------------------------- | --------------------------------- | ------------------------------ |
+| sky130_fd_sc_hd__tt_025C_1v80.lib | 0.0000 ns                   | 0.3096 ns                        | 1.8865 ns                         | 0.0000 ns                      |
+| sky130_fd_sc_hd__ff_100C_1v65.lib | 0.0000 ns                   | 0.2491 ns                        | 3.7904 ns                         | 0.0000 ns                      |
+| sky130_fd_sc_hd__ff_100C_1v95.lib | 0.0000 ns                   | 0.1960 ns                        | 5.3898 ns                         | 0.0000 ns                      |
+| sky130_fd_sc_hd__ff_n40C_1v56.lib | 0.0000 ns                   | 0.2915 ns                        | 0.9227 ns                         | 0.0000 ns                      |
+| sky130_fd_sc_hd__ff_n40C_1v65.lib | 0.0000 ns                   | 0.2551 ns                        | 2.4592 ns                         | 0.0000 ns                      |
+| sky130_fd_sc_hd__ff_n40C_1v76.lib | 0.0000 ns                   | 0.2243 ns                        | 3.7081 ns                         | 0.0000 ns                      |
+| sky130_fd_sc_hd__ss_100C_1v40.lib | -12.7117 ns                 | 0.9053 ns                        | -12.7117 ns                       | -9544.7930 ns                  |
+| sky130_fd_sc_hd__ss_100C_1v60.lib | -4.9864 ns                  | 0.6420 ns                        | -4.9864 ns                        | -3424.7075 ns                  |
+| sky130_fd_sc_hd__ss_n40C_1v28.lib | -56.3915 ns                 | 1.8296 ns                        | -56.3915 ns                       | –                              |
+| sky130_fd_sc_hd__ss_n40C_1v35.lib | -36.3514 ns                 | 1.3475 ns                        | -36.3514 ns                       | –                              |
+| sky130_fd_sc_hd__ss_n40C_1v40.lib | -27.7760 ns                 | 1.1249 ns                        | -27.7760 ns                       | –                              |
+| sky130_fd_sc_hd__ss_n40C_1v44.lib | -23.6693 ns                 | 0.9909 ns                        | -23.6693 ns                       | –                              |
+| sky130_fd_sc_hd__ss_n40C_1v76.lib | -5.8387 ns                  | 0.5038 ns                        | -5.8387 ns                        | –                              |
 
 
 

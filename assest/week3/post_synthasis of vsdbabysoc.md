@@ -61,8 +61,23 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 
 <img width="481" height="397" alt="Screenshot 2025-10-05 133953" src="https://github.com/user-attachments/assets/d64bbe13-051e-4f48-ab68-d6efb6ff25da" />
 
+## ▶️POST_SYNTHESIS SIMULATION AND WAVEFORMS
+
+#### 🥇 step compile thetestbench
+ - Run the following iverilog command
+   """iverilog -o post_synth_sim.out \
+-DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 \
+-I /home/iamtheking/Desktop/vlsi/vsd/VSDBabySoC/src/include \
+-I /home/iamtheking/Desktop/vlsi/vsd/VSDBabySoC/src/gls_model \
+vsdbabysoc.synth.v testbench.v"""
 
 
+
+
+
+
+
+  
 
 
 

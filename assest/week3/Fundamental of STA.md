@@ -94,7 +94,44 @@ the best case path and you can also see the arrival time and reqire time and sla
 - Hold time: Duration D must remain valid after the clock edge; here, hold time is zero since D can change immediately after rising edge.
 
 
-### jitter 
+### 🉐 jittervaules
+
+- jitter : it is the random vartion of clk edge timing
+- it is comes to the power supply variation and voltage drop
+
+
+   ![WhatsApp Image 2025-10-11 at 18 40 32_4edcef23](https://github.com/user-attachments/assets/36eefc35-0faf-439b-bb8d-eceb76e68f05)
+
+- we can the see the noise margein is the amount of distortion is allowed
+- there is an uncertain time also tht account for jitter and noise
+  
+  
+### 🧑 on chip verification and variation
+
+- on chip there will be not the smooth graph we get we get the diverted graph if there are the set of inverters
+
+- like in the image i have shown
+
+  ![WhatsApp Image 2025-10-11 at 18 47 00_3538f942](https://github.com/user-attachments/assets/a59ea3ae-a803-43cc-9871-8c87fbeb0b68)
+
+
+- so it can be fix by the clk pull in and clk pull out
+
+## 🚛 so in the next images i have shown how actuly it can be done clk pull in and clk pull out
+
+![WhatsApp Image 2025-10-11 at 18 49 23_1ce1c8c1](https://github.com/user-attachments/assets/bfd59e5f-6767-41f6-8b77-6acec77a0ddc)
+
+
+
+![WhatsApp Image 2025-10-11 at 18 50 08_92b80b07](https://github.com/user-attachments/assets/507d05b2-e8bc-4610-9a34-a80dabbc1729)
+
+
+
+
+
+![WhatsApp Image 2025-10-11 at 18 50 39_fba9ed85](https://github.com/user-attachments/assets/911b1266-b36e-4e16-a51c-5a05026aceaa)
+
+
 
 
 

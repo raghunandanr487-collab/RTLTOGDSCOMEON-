@@ -37,6 +37,11 @@
   #### 3. 🍬 reg2out
   #### 4. 🐼 in2out
 
+## so i hav edone the reg2reg analysis only so now we will see the path based analysis
+
+  ![WhatsApp Image 2025-10-11 at 18 07 34_5d5dbec1](https://github.com/user-attachments/assets/c92fb537-6677-43b2-886c-766a812dbbe9)
+
+
 
 
   

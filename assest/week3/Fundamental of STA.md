@@ -76,6 +76,29 @@ the best case path and you can also see the arrival time and reqire time and sla
 ![WhatsApp Image 2025-10-11 at 18 29 20_2fb9576f](https://github.com/user-attachments/assets/16fedefb-fad1-4f62-93c2-208f7d5d910d)
 
 
+### 👟 filp flop
+
+ - Combination of Master (Negative latch) and Slave (Positive latch)
+ - in the image you can see it
+
+   ![WhatsApp Image 2025-10-11 at 18 31 39_df54b59d](https://github.com/user-attachments/assets/f26c2d4c-1db2-49d9-a93a-1ee1d067a4bc)
+
+- Ideal Clock: Slew is zero, ie, the Rise/Fall transitions are equal to zero
+
+- Positive-edge FF: Implemented via master–slave configuration
+
+- Setup time: Time before the rising clock edge during which D must be stable for correct Q output.
+
+- CLK-Q delay: Time taken for Qm to propagate to Q includes transmission gate and inverter delay.
+
+- Hold time: Duration D must remain valid after the clock edge; here, hold time is zero since D can change immediately after rising edge.
+
+
+### jitter 
+
+
+
+
 
 
 

@@ -72,7 +72,19 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 -I /home/iamtheking/Desktop/vlsi/vsd/VSDBabySoC/src/gls_model \
 vsdbabysoc.synth.v testbench.v 
 ```
+#### ▶️ Next Steps
+```bash
+./post_synth_sim.out
+```
+#### 🎱 now we can see the wave by using command 
+```bash
+gtkwave post_synth_sim.vcd
+```
 
+###📱 now we will the gtk image of post_sim_synthasis
+
+
+<img width="1413" height="971" alt="Screenshot 2025-10-11 132546" src="https://github.com/user-attachments/assets/6eb35bef-8b34-432d-8a12-1b1425e02d75" />
 
 
 

@@ -38,6 +38,11 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 
 #### 🥉 after all doing this we will print the state image of it are 
 
+<img width="431" height="289" alt="Image" src="https://github.com/user-attachments/assets/228143c4-e2cd-41fb-8a5c-30c19dd89682" />
+
+
+
+
 
 
 

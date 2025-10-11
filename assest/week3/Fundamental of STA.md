@@ -48,6 +48,54 @@ the best case path and you can also see the arrival time and reqire time and sla
 ##### ⚫ circle one is the delay of the cell and wire have other delay also   
 
  
+#### 🧮 :for mroe accurate timing analysis we do pin node convantion in whhich we covert the cell delay 
+
+![WhatsApp Image 2025-10-11 at 18 22 29_0c8860b7](https://github.com/user-attachments/assets/3f5f8e67-a093-46d6-bb72-9d3c1052c5f9)
+
+
+### ⏰ SETUP TIME 
+
+- In one line it is means that capture ff hsa safficeint time to see the data before the capture clk comes.
+
+
+### 🫥 Negative latch 
+  - A negative latch passes input to output when the clock is LOW
+  - the image will show the tht it will get on when clk is zero
+
+ 
+![WhatsApp Image 2025-10-11 at 18 27 35_5c5494c7](https://github.com/user-attachments/assets/60688bd2-932e-46e0-9dbd-69abcf7ca1f2)
+
+
+### :🔮 Positive latch
+
+- A positive latch passes input to output when the clock is HIGH
+
+- image of it
+
+
+![WhatsApp Image 2025-10-11 at 18 29 20_2fb9576f](https://github.com/user-attachments/assets/16fedefb-fad1-4f62-93c2-208f7d5d910d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 

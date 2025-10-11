@@ -2,8 +2,22 @@
  
  ## POST-SYNTHESIS SIMULATION 
 
- - Gate-Level Simulation is performed to validate the functionality of a design after synthesis. Unlike RTL or behavioral simulations, which operate at a higher abstraction level, GLS works on the post-synthesis netlist, containing the actual logic gates and their interconnections used in the final implementation. It ensures that the synthesized design behaves as intended before moving to timing analysis or fabrication.
-  
+ - Gate-Level Simulation is performed to validate the functionality of a design after synthesis.       RTL or behavioral simulations, which operate at a higher abstraction level, GLS works on the post-   synthesis netlist, containing the actual logic gates and their interconnections used in the final    implementation. It ensures that the synthesized design behaves as intended before moving to timing   analysis or fabrication.
+
+   ### Key Points of Gate-Level Simulation (GLS) for BabySoC
+
+  - Timing-Aware Verification:
+GLS uses Standard Delay Format (SDF) files to include real timing information, ensuring that the SoC meets timing constraints. This helps verify that the design behaves correctly under practical conditions.
+
+- Post-Synthesis Design Validation:
+Gate-Level Simulation confirms that the logical functionality of the design remains accurate after synthesis. It also helps detect potential issues such as glitches or metastability in the synthesized netlist.
+
+- Simulation Tools:
+Simulators like Icarus Verilog (or similar) are used to compile and run the gate-level netlist, while waveforms are analyzed using tools like GTKWave.
+
+- Significance for BabySoC:
+BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DAC. GLS ensures that these modules work together correctly and adhere to timing requirements in the synthesized design
+   
 
 
 

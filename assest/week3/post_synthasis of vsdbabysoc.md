@@ -88,6 +88,11 @@ gtkwave post_synth_sim.vcd
 
 
 
+## 🍼how the both vsdbabysoc_post and pre synthsis wave form 
+
+
+
+
 
 
 

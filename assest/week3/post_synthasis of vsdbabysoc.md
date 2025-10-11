@@ -40,7 +40,7 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 
 <img width="431" height="289" alt="Image" src="https://github.com/user-attachments/assets/228143c4-e2cd-41fb-8a5c-30c19dd89682" />
 
-
+<img width="549" height="573" alt="Image" src="https://github.com/user-attachments/assets/5c71d6e2-0996-497a-bbef-150f1820ff97" />
 
 
 

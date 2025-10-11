@@ -19,6 +19,10 @@ Simulators like Icarus Verilog (or similar) are used to compile and run the gate
 BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DAC. GLS ensures that these modules work together correctly and adhere to timing requirements in the synthesized design
    
 
+## here are some commands to do the postsynthasis 
+
+### 🥇first you have to start the yosys
+
 
 
 

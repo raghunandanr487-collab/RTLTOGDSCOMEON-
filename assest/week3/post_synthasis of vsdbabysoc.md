@@ -7,7 +7,7 @@
    ### Key Points of Gate-Level Simulation (GLS) for BabySoC
 
    - Timing-Aware Verification:
-   GLS uses Standard Delay Format (SDF) files to include real timing information, ensuring that       the SoC meets timing constraints. This helps verify that the design behaves correctly under        practical conditions.
+ GLS uses Standard Delay Format (SDF) files to include real timing information, ensuring that       the SoC meets timing constraints. This helps verify that the design behaves correctly under        practical conditions.
 
  -  Post-Synthesis Design Validation:
 Gate-Level Simulation confirms that the logical functionality of the design remains accurate after synthesis. It also helps detect potential issues such as glitches or metastability in the synthesized netlist.

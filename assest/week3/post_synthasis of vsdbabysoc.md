@@ -26,6 +26,15 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
    
 <img width="669" height="300" alt="Image" src="https://github.com/user-attachments/assets/6826529b-c193-4f5e-a7c0-9ace29489db9" />
 
+<img width="677" height="168" alt="Image" src="https://github.com/user-attachments/assets/6f1d2e1c-2643-4816-b0c3-98b0dd4854b3" />
+
+#### 🥈 now you have to read the liberty files like shown in the image
+
+
+
+
+
+
 
 
 

@@ -91,6 +91,18 @@ gtkwave post_synth_sim.vcd
 ## 🍼how the both vsdbabysoc_post and pre synthsis wave form 
 
 
+<img width="1503" height="1025" alt="image" src="https://github.com/user-attachments/assets/888a5fbd-6262-47ce-acc2-ad461892bc10" />
+
+<img width="1413" height="971" alt="Screenshot 2025-10-11 132546" src="https://github.com/user-attachments/assets/6eb35bef-8b34-432d-8a12-1b1425e02d75" />
+
+
+#### ♠️ these are the both pre and post sim waveforms and key take ways are
+
+
+- By superimposing these two waveforms, you are performing a "Logical Equivalence Check.
+ If the patterns of D[9:0] and the values of OUT are identical in both screenshots, it confirms: The synthesis tool did NOT break your design logic.
+
+-The GLS output  is a critical stepping stone: it gives high confidence that the complex network of standard cells (gates) is indeed realizing the simple, intended function described in your Verilog code.
 
 
 

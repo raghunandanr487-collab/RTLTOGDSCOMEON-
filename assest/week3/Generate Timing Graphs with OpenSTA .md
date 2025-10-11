@@ -158,11 +158,17 @@ for {set i 1} {$i <= [array size list_of_lib_files]} {incr i} {
 | sky130_fd_sc_hd__ff_n40C_1v76.lib | 0.0000 ns                   | 0.2243 ns                        | 3.7081 ns                         | 0.0000 ns                      |
 | sky130_fd_sc_hd__ss_100C_1v40.lib | -12.7117 ns                 | 0.9053 ns                        | -12.7117 ns                       | -9544.7930 ns                  |
 | sky130_fd_sc_hd__ss_100C_1v60.lib | -4.9864 ns                  | 0.6420 ns                        | -4.9864 ns                        | -3424.7075 ns                  |
-| sky130_fd_sc_hd__ss_n40C_1v28.lib | -56.3915 ns                 | 1.8296 ns                        | -56.3915 ns                       | –                              |
-| sky130_fd_sc_hd__ss_n40C_1v35.lib | -36.3514 ns                 | 1.3475 ns                        | -36.3514 ns                       | –                              |
-| sky130_fd_sc_hd__ss_n40C_1v40.lib | -27.7760 ns                 | 1.1249 ns                        | -27.7760 ns                       | –                              |
-| sky130_fd_sc_hd__ss_n40C_1v44.lib | -23.6693 ns                 | 0.9909 ns                        | -23.6693 ns                       | –                              |
-| sky130_fd_sc_hd__ss_n40C_1v76.lib | -5.8387 ns                  | 0.5038 ns                        | -5.8387 ns                        | –                              |
+| sky130_fd_sc_hd__ss_n40C_1v28.lib | -56.3915 ns                 | 1.8296 ns                        | -56.3915 ns                       | -48104.5273ns
+         |
+| sky130_fd_sc_hd__ss_n40C_1v35.lib | -36.3514 ns                 | 1.3475 ns                        | -36.3514 ns                       | -29700.7148ns
+  
+|
+| sky130_fd_sc_hd__ss_n40C_1v40.lib | -27.7760 ns                 | 1.1249 ns                        | -27.7760 ns                       | –22279.8398ns
+                              |
+| sky130_fd_sc_hd__ss_n40C_1v44.lib | -23.6693 ns                 | 0.9909 ns                        | -23.6693 ns                       | -18268.2520ns
+                              |
+| sky130_fd_sc_hd__ss_n40C_1v76.lib | -5.8387 ns                  | 0.5038 ns                        | -5.8387 ns                        | -18268.2520ns
+                            |
 
 
 

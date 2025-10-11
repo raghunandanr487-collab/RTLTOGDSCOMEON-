@@ -69,7 +69,7 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 -DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 \
 -I /home/iamtheking/Desktop/vlsi/vsd/VSDBabySoC/src/include \
 -I /home/iamtheking/Desktop/vlsi/vsd/VSDBabySoC/src/gls_model \
-vsdbabysoc.synth.v testbench.v"""
+vsdbabysoc.synth.v testbench.v""" 
 
 
 

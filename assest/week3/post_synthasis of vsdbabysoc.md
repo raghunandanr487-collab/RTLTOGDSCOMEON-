@@ -22,8 +22,12 @@ BabySoC integrates multiple modules, including the RISC-V processor, PLL, and DA
 ## here are some commands to do the postsynthasis 
 
 #### 🥇first you have to start the yosys
-#### insdie it you have read_verilog files rvmyth.v like inshown in the image
+#### insdie it you have read_verilog files rvmyth.v and clk_gate.v like inshown in the image
    
+<img width="669" height="300" alt="Image" src="https://github.com/user-attachments/assets/6826529b-c193-4f5e-a7c0-9ace29489db9" />
+
+
+
 
 
 

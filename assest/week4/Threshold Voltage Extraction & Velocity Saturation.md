@@ -43,6 +43,29 @@ Definition:
 - When the channel length (L) is small, velocity saturation dominates, making the ID–VGS curve linear.
 - When the channel width (W) is small, the current level decreases.
 - Short-channel NMOS devices show faster operation but reduced gain due to lower transconductance and early saturation.
+
+  
+
+## now we will the graph of velocity saturation effect
+
+![WhatsApp Image 2025-10-17 at 00 34 16_e166d94f](https://github.com/user-attachments/assets/ce5805fb-3d31-49dd-b249-43c37418a434)
+
+## so now we will see the explation i have written in the note book 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 

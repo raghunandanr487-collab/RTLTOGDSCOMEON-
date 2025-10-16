@@ -19,26 +19,26 @@ Definition:
 
 
 
-## now we will see what happen if we reduce the w and l?
+## 😶‍🌫️now we will see what happen if we reduce the w and l?
 
 - we will see the image for it
 
 <img width="1683" height="968" alt="Screenshot 2025-10-14 002000" src="https://github.com/user-attachments/assets/9a782a52-d5b3-41b3-b77b-c0b23dac01b5" />
 
-## observations 
+## 🔍observations 
 - so the early situation will come in this graph as we can see
 - the curvature will be less curv.
 - rise in saturation region it will be not flat as the previous one.
 - show the graph will be grow linearly in the saturation region.
 - show add smaller scale less quadratic more linear dependency overall.
 
-## now we will see the another graph of vgs vs Id
+## 📊 now we will see the another graph of vgs vs Id
 
 
 <img width="1724" height="1040" alt="Screenshot 2025-10-14 002646" src="https://github.com/user-attachments/assets/0e520b3b-bbe4-423f-a676-2c2e47f6d16c" />
 
 
-## observatons 
+## 🔬 observatons 
 - so for the higher vgs the current will behave like linearly more if the W and l are too small.
 - When the channel length (L) is small, velocity saturation dominates, making the ID–VGS curve linear.
 - When the channel width (W) is small, the current level decreases.
@@ -46,15 +46,15 @@ Definition:
 
   
 
-## now we will the graph of velocity saturation effect
+## 🦚 now we will the graph of velocity saturation effect
 
 ![WhatsApp Image 2025-10-17 at 00 34 16_e166d94f](https://github.com/user-attachments/assets/ce5805fb-3d31-49dd-b249-43c37418a434)
 
-## so now we will see the explation i have written in the note book 
+## 📝 so now we will see the explation i have written in the note book 
 
+![WhatsApp Image 2025-10-17 at 00 36 36_fc754951](https://github.com/user-attachments/assets/c650c860-5423-4203-90e1-bfa358d13aa4)
 
-
-
+![WhatsApp Image 2025-10-17 at 00 37 04_4bf006bb](https://github.com/user-attachments/assets/c7121522-aa32-45b7-a1f1-9a8cfd00448d)
 
 
 

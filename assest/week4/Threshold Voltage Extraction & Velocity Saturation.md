@@ -19,3 +19,28 @@ Definition:
 
 
 
+## now we will see what happen if we reduce the w and l?
+
+- we will see the image for it
+
+<img width="1683" height="968" alt="Screenshot 2025-10-14 002000" src="https://github.com/user-attachments/assets/9a782a52-d5b3-41b3-b77b-c0b23dac01b5" />
+
+## observations 
+- so the early situation will come in this graph as we can see
+- the curvature will be less curv.
+- rise in saturation region it will be not flat as the previous one.
+- show the graph will be grow linearly in the saturation region.
+- show add smaller scale less quadratic more linear dependency overall.
+
+## now we will see the another graph of vgs vs Id
+
+
+<img width="1724" height="1040" alt="Screenshot 2025-10-14 002646" src="https://github.com/user-attachments/assets/0e520b3b-bbe4-423f-a676-2c2e47f6d16c" />
+
+
+
+  
+
+
+
+

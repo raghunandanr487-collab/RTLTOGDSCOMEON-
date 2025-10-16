@@ -47,7 +47,29 @@
   
 ## so now there channel is formed and there will be the flow of electron from source to drain and ID will flow from drain to source
 - so now we will see the important equations
-  
+
+
+  #### this is for the linear region of operation
+
+
+  ![WhatsApp Image 2025-10-16 at 23 05 13_6cf0477e](https://github.com/user-attachments/assets/da872b46-5921-4895-96e3-83abdc63e5cd)
+
+#### this is for the saturation region of operation
+
+![WhatsApp Image 2025-10-16 at 23 06 35_2496f6ce](https://github.com/user-attachments/assets/0ca188f7-3fb2-43a7-b4e9-74e7a275e5a0)
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 

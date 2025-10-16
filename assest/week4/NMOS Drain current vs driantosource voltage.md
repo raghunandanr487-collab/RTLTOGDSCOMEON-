@@ -94,9 +94,8 @@ downlode by using command : sudo install ngspice
   ### these all are the files we needed when we do the simulation in the ngspice
 
 
-## 📈 now we will plot the graph of id vs vds
 
-#### 📂 this the file we gonna use
+## 📂 this the file we gonna use
 
 <img width="1021" height="1106" alt="Screenshot 2025-10-13 192806" src="https://github.com/user-attachments/assets/e4e14dd1-3bf2-48da-bd5d-9b9bc6c457d7" />
 

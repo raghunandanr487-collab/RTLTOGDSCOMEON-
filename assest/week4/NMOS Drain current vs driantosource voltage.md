@@ -63,10 +63,28 @@
 
 
 
-  ### now we will see the spice set up
+
+
+ ## now we will see the spice set up
 
   - VTO ,gamma, Lambda and kn all these are spice model parameters.
-  - 
+  - so in the spice there will be spice netlist where all the model names of nmos are written
+  - and then we put this netlist to our software ngspice
+  - and then we will see the graph of ID vs vds
+
+##  we have to open the ngspice in the terminal
+
+```bash 
+downlode by using command  sudo install ngspice
+```
+
+
+
+
+
+
+  
+
 
 
 

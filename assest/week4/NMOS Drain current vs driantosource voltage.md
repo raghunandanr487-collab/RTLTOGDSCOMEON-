@@ -21,7 +21,7 @@
 
 - as you can see here gate is positively charged
 - and we have the n+ donor atom also which gives the electrons
-- so it is AP type subscript so we have to remove the positive charge from  the channel and make the channel completely negatively charged or only electrons show to reach there we have to increase the gate voltage and after that the conditions come called inversion
+- so it is a P type subscript so we have to remove the positive charge from  the channel and make the channel completely negatively charged or only electrons show to reach there we have to increase the gate voltage and after that the conditions come called inversion
 -  inversion is the process where a sufficiently positive voltage applied to the gate attracts minority electrons to the p-type substrate's surface. 
 - the voltage at which the inversion occurs is called the threshold voltage
 - so condition is vgs equals to Vt0 for the inversion occur
@@ -34,6 +34,26 @@
   - so equation will be-
 
    ![WhatsApp Image 2025-10-16 at 22 52 55_e257e2cd](https://github.com/user-attachments/assets/7fff6416-0b62-4933-aeb1-489b595b13d7)
+
+
+## now we will connect the train to the positive voltage which is called vds
+
+![WhatsApp Image 2025-10-16 at 22 57 04_6f704c42](https://github.com/user-attachments/assets/fabd5c60-e2cd-4d7f-b88c-994e3cc75a3e)
+
+
+- as you can see in the image there will be a channel formed also as we keep increasing the vds then there will be a pinch of voltage will come in the play
+- so now the equation will become the vgs-vto should be greater than equals to vds
+- show as you can see the voltage is not constant through the whole channel  at the source  there will be vgs voltage and at the drain channel there will be vgs-Vto voltage
+  
+## so now there channel is formed and there will be the flow of electron from source to drain and ID will flow from drain to source
+- so now we will see the important equations
+  
+   
+
+
+
+  
+
 
 
 

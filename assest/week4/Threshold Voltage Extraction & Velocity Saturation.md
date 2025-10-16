@@ -38,7 +38,11 @@ Definition:
 <img width="1724" height="1040" alt="Screenshot 2025-10-14 002646" src="https://github.com/user-attachments/assets/0e520b3b-bbe4-423f-a676-2c2e47f6d16c" />
 
 
-
+## observatons 
+- so for the higher vgs the current will behave like linearly more if the W and l are too small.
+- When the channel length (L) is small, velocity saturation dominates, making the ID–VGS curve linear.
+- When the channel width (W) is small, the current level decreases.
+- Short-channel NMOS devices show faster operation but reduced gain due to lower transconductance and early saturation.
   
 
 

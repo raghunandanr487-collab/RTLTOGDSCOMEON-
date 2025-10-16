@@ -65,23 +65,23 @@
 
 
 
- ## now we will see the spice set up
+ ## 🌶️ now we will see the spice set up
 
   - VTO ,gamma, Lambda and kn all these are spice model parameters.
   - so in the spice there will be spice netlist where all the model names of nmos are written
   - and then we put this netlist to our software ngspice
   - and then we will see the graph of ID vs vds
 
-##  we have to open the ngspice in the terminal
+## ⏬ we have to open the ngspice in the terminal
 
 ```bash 
 downlode by using command : sudo install ngspice
 ```
 
-## after that we will downlode the reqiured files from here or do the git clone 
+##  🤡 after that we will downlode the reqiured files from here or do the git clone 
   https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
 
-## after git cloning we can see the files
+## 🗃️ after git cloning we can see the files
 
 <img width="1028" height="308" alt="Screenshot 2025-10-13 191011" src="https://github.com/user-attachments/assets/0a1aee33-ace7-4ede-87d8-8c48a68b28d6" />
 
@@ -94,14 +94,14 @@ downlode by using command : sudo install ngspice
   ### these all are the files we needed when we do the simulation in the ngspice
 
 
-## now we will plot the graph of id vs vds
+## 📈 now we will plot the graph of id vs vds
 
-#### this the file we gonna use
+#### 📂 this the file we gonna use
 
 <img width="1021" height="1106" alt="Screenshot 2025-10-13 192806" src="https://github.com/user-attachments/assets/e4e14dd1-3bf2-48da-bd5d-9b9bc6c457d7" />
 
 
- #### now we we put this in ngspice then we get 
+ #### 🏑 now we we put this in ngspice then we get 
 
 <img width="742" height="576" alt="Screenshot 2025-10-13 193004" src="https://github.com/user-attachments/assets/67b20569-f80d-42b2-b704-b944016b6bb0" />
 
@@ -112,7 +112,17 @@ downlode by using command : sudo install ngspice
   <img width="1599" height="914" alt="Screenshot 2025-10-13 193610" src="https://github.com/user-attachments/assets/b17d1767-d504-4d94-ba57-891ce0025754" />
 
 
-  
+  ## 🔬 obseravtion
+
+
+  - so the first half of the graph is linear region and the another where the curve  is flattened is saturation region
+  - as we can clearly see cheat as we increase the VG s the situation not come easily there will be a more linear region
+
+
+##  🤨 so what happen when the width and length of nmos is increases or decreses there will will change in the graph that we will see in the next 
+
+
+ 
 
 
 

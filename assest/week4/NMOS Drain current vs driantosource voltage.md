@@ -75,8 +75,12 @@
 ##  we have to open the ngspice in the terminal
 
 ```bash 
-downlode by using command  sudo install ngspice
+downlode by using command : sudo install ngspice
 ```
+
+## after that we will downlode the reqiured files from here or do the git clone 
+  https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
+
 
 
 

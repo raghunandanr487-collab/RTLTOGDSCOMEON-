@@ -20,11 +20,41 @@
  ![WhatsApp Image 2025-10-16 at 22 41 59_257cfe02](https://github.com/user-attachments/assets/4b445aa2-dbb9-4a01-ba0e-4c90d7d39587)
 
 - as you can see here gate is positively charged
-- and we have the n plus donor atom also which gives the electrons
+- and we have the n+ donor atom also which gives the electrons
 - so it is AP type subscript so we have to remove the positive charge from  the channel and make the channel completely negatively charged or only electrons show to reach there we have to increase the gate voltage and after that the conditions come called inversion
 -  inversion is the process where a sufficiently positive voltage applied to the gate attracts minority electrons to the p-type substrate's surface. 
 - the voltage at which the inversion occurs is called the threshold voltage
 - so condition is vgs equals to Vt0 for the inversion occur
+
+  ## now we will what hapeen if we connect base to positive voltage
+
+ - if we connect bees to positive voltage then inversion will not happen fast or we have to give    more voltage to make the channel
+  - inversion not occurs that much fast because the positive charge at base repels the holes
+    so we have to give more voltage at vgs to remove the holes from there.
+  - so equation will be-
+
+   ![WhatsApp Image 2025-10-16 at 22 52 55_e257e2cd](https://github.com/user-attachments/assets/7fff6416-0b62-4933-aeb1-489b595b13d7)
+
+
+
+
+
+
+   
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+  
   
 
 

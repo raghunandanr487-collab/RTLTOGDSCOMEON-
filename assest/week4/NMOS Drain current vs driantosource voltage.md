@@ -10,5 +10,11 @@
 
 <img width="449" height="275" alt="image" src="https://github.com/user-attachments/assets/6a93fc9d-35ef-4d07-9903-af7751e68928" />
 
-#### so here we can see there is an nmos and here the source and drain are grounded and base also
+- so here we can see there is an nmos and here the source and drain are grounded and base also
+- here the channel length is l and gate is connected to the metal and after that there is oxide layer and we have used P type semiconductor substrate
+- so to make the current flow we have to give some voltage at the gate
 
+ ## now we will see the another image wear gate is positively charged
+
+
+ ![WhatsApp Image 2025-10-16 at 22 41 59_257cfe02](https://github.com/user-attachments/assets/4b445aa2-dbb9-4a01-ba0e-4c90d7d39587)

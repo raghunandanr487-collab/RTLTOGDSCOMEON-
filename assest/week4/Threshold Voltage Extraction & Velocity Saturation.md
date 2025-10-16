@@ -12,4 +12,10 @@ The value of V<sub>th</sub> depends on several factors, such as:
 - Gate material work function
 - Body bias (V<sub>SB</sub>)
 
- 
+ # 2️⃣ Velocity Saturation
+
+Definition:
+- Velocity saturation occurs when the carrier drift velocity in the MOSFET channel no longer increases linearly with the electric field but instead approaches a maximum saturation velocity (v<sub>sat</sub>) due to scattering effects at high electric fields.
+
+
+

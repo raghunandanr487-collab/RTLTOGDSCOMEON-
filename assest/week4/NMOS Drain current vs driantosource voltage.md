@@ -58,8 +58,15 @@
 
 ![WhatsApp Image 2025-10-16 at 23 06 35_2496f6ce](https://github.com/user-attachments/assets/0ca188f7-3fb2-43a7-b4e9-74e7a275e5a0)
 
+- it is the region where the vds is greater than vgs minus vto
+- if we keep increasing the VS then the channel will cut off and  effective channel length will reduce.
 
 
+
+  ### now we will see the spice set up
+
+  - VTO ,gamma, Lambda and kn all these are spice model parameters.
+  - 
 
 
 

@@ -80,7 +80,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 ## so the VTC graph will look like this 
 
-  <img width="500" height="214" alt="image" src="https://github.com/user-attachments/assets/ccdc1807-540d-461b-bd68-9fd09464b047" />
+  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ccdc1807-540d-461b-bd68-9fd09464b047" />
 
    
 

@@ -156,12 +156,14 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 # table and observations 
 
-| Sr. No | VDD (V) | Rise Delay (ps) | Fall Delay (ps) | Vm (V) |
-| :----: | :-----: | :-------------: | :-------------: | :----: |
-|    1   |   1.2   |        44       |        71       |  0.94  |
-|    2   |   2.0   |        68       |        80       |  1.25  |
-|    3   |   2.4   |        45       |        84       |  1.35  |
-|    4   |   5.0   |        37       |        89       |  1.40  |
+| Sr. No |    Wp/Lp    |    Wn/Ln    | Rise Delay (ps) | Fall Delay (ps) | Vm (V) |
+| :----: | :---------: | :---------: | :-------------: | :-------------: | :----: |
+|    1   | 1 µm / 1 µm | 1 µm / 1 µm |       148       |        71       |  0.99  |
+|    2   | 1 µm / 1 µm | 2 µm / 1 µm |        80       |        76       |  1.20  |
+|    3   | 1 µm / 1 µm | 3 µm / 1 µm |        57       |        80       |  1.25  |
+|    4   | 1 µm / 1 µm | 4 µm / 1 µm |        45       |        84       |  1.35  |
+|    5   | 1 µm / 1 µm | 5 µm / 1 µm |        37       |        88       |  1.40  |
+
 
 - As we can see, there is very little change in Vm, which is an advantage for us.
 

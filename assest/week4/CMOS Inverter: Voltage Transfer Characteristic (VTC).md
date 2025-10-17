@@ -75,6 +75,18 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
    <img width="316" height="194" alt="image" src="https://github.com/user-attachments/assets/a5bc5ab8-9601-45a1-9350-65e8bb89ecf8" />
 
+- by this grph we will plot the vtc graph by looking at the intersection of the graph
+
+
+## so the VTC graph will look like this 
+
+  <img width="500" height="214" alt="image" src="https://github.com/user-attachments/assets/ccdc1807-540d-461b-bd68-9fd09464b047" />
+
+   
+
+
+   
+
 
 
 

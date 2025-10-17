@@ -126,12 +126,61 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 ### In the file we can see the pfet  width  is double off nfet 
 
-## now we will see the graph of it 
+## now we will see the graph of it vout vs time imposed on pules 
 
 <img width="1482" height="963" alt="Screenshot 2025-10-16 192119" src="https://github.com/user-attachments/assets/fae13417-0419-47a6-8146-1fbd8c5f3532" />
 
 
+### we can see here there is pulse in blue colour and vout in red colour soo for the rise delay we have to see at mid point of the red line where it is raising 
 
+### so for the fall dealy we have to look at the point where the red line is falling , at it mid point  like this 
+
+  ## rise dealy
+
+
+  <img width="694" height="535" alt="Screenshot 2025-10-16 201640" src="https://github.com/user-attachments/assets/341ce00f-855b-4b52-8067-1b9bdb91fc12" />
+
+  <img width="342" height="63" alt="Screenshot 2025-10-16 192052" src="https://github.com/user-attachments/assets/3ac3aead-1ded-4542-9237-471976824b71" />
+
+
+## fall dealy 
+
+<img width="618" height="529" alt="Screenshot 2025-10-16 201947" src="https://github.com/user-attachments/assets/e61ddbb6-1526-47cc-8657-53889eba5c36" />
+
+
+#  Results
+
+- rise dealy =2.48ns - 2.15ns
+- fall dealy =4.33ns - 4.0521ns
+
+
+# table and observations 
+
+| Sr. No | VDD (V) | Rise Delay (ps) | Fall Delay (ps) | Vm (V) |
+| :----: | :-----: | :-------------: | :-------------: | :----: |
+|    1   |   1.2   |        44       |        71       |  0.94  |
+|    2   |   2.0   |        68       |        80       |  1.25  |
+|    3   |   2.4   |        45       |        84       |  1.35  |
+|    4   |   5.0   |        37       |        89       |  1.40  |
+
+- As we can see, there is very little change in Vm, which is an advantage for us.
+
+- During fabrication, if there is any delay (for example, 2.45 µm), the value of Vm will not change much.
+
+- Both rise delay and fall delay are important for maintaining proper clock (CLK) timing in downstream cells.
+
+- One of the most important uses of these parameters is to study the delay behavior under different conditions.
+
+###  If the Cell Delay is High
+
+- If the cell delay is much higher and it violates the rule, then it results in negative slack.
+
+- To correct this, we can use cells that have lower delay values (for example, 24 ps or 45 ps) to reduce the total cell delay and meet the timing requirements.
+
+### example of any cell  
+  Setup Time  = 0.30 ns
+ Clock Delay = 0.45 ns
+  ALU Delay   = 1.60 ns
 
 
 

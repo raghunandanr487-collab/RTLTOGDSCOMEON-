@@ -7,7 +7,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 
 
-  ## so now we will the image of the cmos invertor
+  ## ℹ️ so now we will the image of the cmos invertor
 
   <img width="436" height="568" alt="image" src="https://github.com/user-attachments/assets/044844aa-3437-4651-b47e-2e0c12303074" />
 
@@ -16,7 +16,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
    -  this transistor will act like the switch when infinite off resistance when vgs<vt
 
 
- ##  now we will see the image 
+ ## ℹ️ now we will see the image 
 
    ![WhatsApp Image 2025-10-17 at 12 01 48_738e43cf](https://github.com/user-attachments/assets/653cd798-079e-4b8a-a919-526d3cf3852e)
 
@@ -25,7 +25,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 - and for nmos vgs>vt
 - now we will see the another image in which we will see how to on the cmos 
   
-## here is the image
+## 🦚 here is the image
 
 ![WhatsApp Image 2025-10-17 at 12 09 17_c0c6f3bd](https://github.com/user-attachments/assets/d379f340-aaa1-42fb-bb15-88098aab4dec)
 
@@ -33,7 +33,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 -  so pmos will get on and nmos will get off
 -  if the vin is  there  at the input  then noms will get on and pmos will get off
 
-## now we will see the another image in which now it look like when pmos is on and nmos 
+## 🧠now we will see the another image in which now it look like when pmos is on and nmos 
 
 ![WhatsApp Image 2025-10-17 at 12 18 38_66140a0f](https://github.com/user-attachments/assets/d2a23e3e-3b44-48a9-83d2-d7625598d551)
 
@@ -42,7 +42,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
     
 
 
-## now we will see the image of the graph
+## 📊 now we will see the image of the graph
 
 ![WhatsApp Image 2025-10-17 at 14 19 43_795dae18](https://github.com/user-attachments/assets/87ffbfaf-b452-458a-b325-5c6e9acae439)
 
@@ -78,7 +78,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 - by this grph we will plot the vtc graph by looking at the intersection of the graph
 
 
-## so the VTC graph will look like this 
+## 🦄so the VTC graph will look like this 
 
   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ccdc1807-540d-461b-bd68-9fd09464b047" />
 
@@ -88,7 +88,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
  - we can also find the voltage where the invertor swithes it values by drawing the line of 45 degree , where it cut the graph ,it will the vm voltage the
      invertor switches the value
 
-## I have done the spice simulation and get the result like 
+## 😎I have done the spice simulation and get the result like 
 
 <img width="978" height="780" alt="Screenshot 2025-10-16 200023" src="https://github.com/user-attachments/assets/f9ddcef0-15e8-4898-89ba-dbb8183506cf" />
 
@@ -97,13 +97,13 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 
 
-  ## what happen if  I chnage the value of w/l ?
+  ## 🤔 what happen if  I chnage the value of w/l ?
 
 - so the next thing is that we have to find the Wp/ LP / Wn/Ln ratio  so that we can identify how much should pmos greater than nmos
 - so we have to derive some equations for this review we will directly see the equation for now
 
 
-## here are the equations
+## 📐here are the equations
 
 ![WhatsApp Image 2025-10-17 at 15 48 04_d1a6651f](https://github.com/user-attachments/assets/4913484c-1016-46d5-9ca9-a5ed8af4ecc4) 
 
@@ -111,10 +111,10 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 - as we see previously Vm  is the point where vin is equals to vout, where inverter switches its value.
 - next part is to find the rise and fall delay
 
-### rise delay
+### 💹rise delay
 - it is the time in which capacitor get charged is called rise delay.
 
-### fall delay
+### 🌠 fall delay
 - it is the time in which capacitor get discharge.
 
 ## so to find the rice delay and fall delay we will superimpose the pulse in this spice simulation
@@ -135,7 +135,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 ### so for the fall dealy we have to look at the point where the red line is falling , at it mid point  like this 
 
-  ## rise dealy
+  ## 💹 rise dealy
 
 
   <img width="694" height="535" alt="Screenshot 2025-10-16 201640" src="https://github.com/user-attachments/assets/341ce00f-855b-4b52-8067-1b9bdb91fc12" />
@@ -143,18 +143,18 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
   <img width="342" height="63" alt="Screenshot 2025-10-16 192052" src="https://github.com/user-attachments/assets/3ac3aead-1ded-4542-9237-471976824b71" />
 
 
-## fall dealy 
+## 🌠 fall dealy 
 
 <img width="618" height="529" alt="Screenshot 2025-10-16 201947" src="https://github.com/user-attachments/assets/e61ddbb6-1526-47cc-8657-53889eba5c36" />
 
 
-#  Results
+# 🧙  Results
 
 - rise dealy =2.48ns - 2.15ns
 - fall dealy =4.33ns - 4.0521ns
 
 
-# table and observations 
+#  🔭table and observations 
 
 | Sr. No |    Wp/Lp    |    Wn/Ln    | Rise Delay (ps) | Fall Delay (ps) | Vm (V) |
 | :----: | :---------: | :---------: | :-------------: | :-------------: | :----: |
@@ -173,13 +173,13 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 - One of the most important uses of these parameters is to study the delay behavior under different conditions.
 
-###  If the Cell Delay is High
+### 🚔 If the Cell Delay is High
 
 - If the cell delay is much higher and it violates the rule, then it results in negative slack.
 
 - To correct this, we can use cells that have lower delay values (for example, 24 ps or 45 ps) to reduce the total cell delay and meet the timing requirements.
 
-### example of any cell  
+### 🎭 example of any cell  
   Setup Time  = 0.30 ns
  Clock Delay = 0.45 ns
   ALU Delay   = 1.60 ns

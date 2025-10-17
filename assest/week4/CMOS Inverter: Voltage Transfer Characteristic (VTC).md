@@ -31,7 +31,7 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
 -  now if the vin is zero then vin -vdd =-vdd
 -  so pmos will get on and nmos will get off
--  if the vin there then noms will get on and pmos will get off
+-  if the vin is  there  at the input  then noms will get on and pmos will get off
 
 ## now we will see the another image in which now it look like when pmos is on and nmos 
 
@@ -42,7 +42,81 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
     
 
 
-## now wewill see the image of the graph
+## now we will see the image of the graph
+
+![WhatsApp Image 2025-10-17 at 14 19 43_795dae18](https://github.com/user-attachments/assets/87ffbfaf-b452-458a-b325-5c6e9acae439)
+
+- as we can see the graph on the right side there is graph of pmos and at the left side the
+   graph of the nmos
+- the nmos graph we have seen previsously whcih is same IDSN VS VDSN
+- so in pmos graph we can see that when the -vgs is increasing then neg of IDS  is also increasing
+- so now we will convert this graph to another graph that i will shown in the image
+
+  ## so here is the image
+
+
+  ![WhatsApp Image 2025-10-17 at 14 47 50_c6b4399e](https://github.com/user-attachments/assets/7b75e309-679e-4240-a806-76e0fd26e455)
+
+
+ - so here what we have to do that we have wrote the vin=vgs+vdd.
+ - on the diif vgs we get the value of vin and then we have make the graph of it
+ - graph is still vds vs IDSN but we have taken graph to positive y axis.
+
+   ## now for the further econversion of graph we take it to positive x axis so we will the another image
+
+
+ ![WhatsApp Image 2025-10-17 at 14 52 26_45524b15](https://github.com/user-attachments/assets/49a9435a-5059-4bed-b84b-c65fd013b26f)
+
+- in this image we can see we usees the eauation of vout=vdd+vdsp
+- after this we get the graph and it shows that capacitor is fully charged when the vin=0
+- this called the load curve graph for pmos transistor
+- now we will superimpose both the graph and find the vlotage transferr characterstics
+
+
+   <img width="316" height="194" alt="image" src="https://github.com/user-attachments/assets/a5bc5ab8-9601-45a1-9350-65e8bb89ecf8" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+  
+
+
+
+
+ 
+
+   
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
 
 
 

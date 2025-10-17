@@ -82,7 +82,16 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ccdc1807-540d-461b-bd68-9fd09464b047" />
 
-   
+  - this graph will tell you about the pmos and nmos state at which voltage (vin), both  to of        them are in which state 
+ - one of the observation of the graph is how there is drastically the vu decreases when we
+   just increase the Vin by some amount
+
+## now we will do some simulation 
+
+
+
+
+
 
 
    

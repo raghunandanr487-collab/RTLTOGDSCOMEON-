@@ -1,5 +1,5 @@
 
-# CMOS Inverter 
+# 🖤 CMOS Inverter 
 **Definition:**
 The **Voltage Transfer Characteristic (VTC)** of a CMOS inverter is a graph that shows how the **output voltage changes** when the **input voltage** is increased from 0 to 🔋 (supply voltage).
 
@@ -82,11 +82,14 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 
   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ccdc1807-540d-461b-bd68-9fd09464b047" />
 
-  - this graph will tell you about the pmos and nmos state at which voltage (vin), both  to of        them are in which state 
+  - this graph will tell you about the pmos and nmos state at which voltage (vin), both  to of  them are in which state 
  - one of the observation of the graph is how there is drastically the vu decreases when we
    just increase the Vin by some amount
+   - we can also find the voltage where the invertor swithes it values by drawing the line of 45 degree , where it cut the graph ,it will the vm voltage the invertor switches the value
 
-## now we will do some simulation 
+## I have done the spice simulation and get the result like 
+  
+  
 
 
 

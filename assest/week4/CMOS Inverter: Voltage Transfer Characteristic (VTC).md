@@ -180,9 +180,9 @@ It helps us understand how the inverter switches from logic HIGH to logic LOW. W
 - To correct this, we can use cells that have lower delay values (for example, 24 ps or 45 ps) to reduce the total cell delay and meet the timing requirements.
 
 ### 🎭 example of any cell  
-  Setup Time  = 0.30 ns
- Clock Delay = 0.45 ns
-  ALU Delay   = 1.60 ns
+ - Setup Time  = 0.30 ns
+ - Clock Delay = 0.45 ns
+  - ALU Delay   = 1.60 ns
 
 
 

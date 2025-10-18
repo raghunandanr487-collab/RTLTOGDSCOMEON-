@@ -22,7 +22,7 @@
 <img width="1820" height="932" alt="Screenshot 2025-10-18 185146" src="https://github.com/user-attachments/assets/4ff8db84-9167-46b0-852a-414feec616ed" />
 
 
-##🔭 observations 
+## 🔭 observations 
 
 - in this we can see we have reduce the vdd
 - we have the total six outputs

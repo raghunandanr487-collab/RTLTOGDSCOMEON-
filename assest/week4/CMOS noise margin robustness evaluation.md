@@ -43,9 +43,55 @@
 - thrid region = it is the low region and it  diff tells that if that much amout of noise will     come then it can bear it and give output as logic zero .
 
 
+## now we will summaries it by looking at the graph 
+
+![WhatsApp Image 2025-10-18 at 19 45 43_a383ccbe](https://github.com/user-attachments/assets/47d2900b-50a6-407f-a90f-98ec9018f8b6)
+
+- so for any signal to be considered as logic zero and logic one ,it should be in the NML and  NMH ranges ,respectively
+
+- these are the bumps which are comming ,and other all the thing we clearly see from the image.
+  
+
+ # Static behavior evaluation: Cmos invertor robustness
+
+  ## now in this we will see how the NMH and NML will changes when we change the width of pmos
+   and nmos 
+
+  ### now we will see the graph of which size nmos and pmos taken 
+
+  <img width="1835" height="984" alt="Screenshot 2025-10-18 154446" src="https://github.com/user-attachments/assets/11679b33-cab9-4ced-a440-bf869ecb0601" />
+
+## Observations 
+- From the table, the Noise Margins are: NMH​=0.3V,NML​=0.3V
+- These values indicate that the inverter can tolerate up to 0.3 V of noise on either the
+   logic high or logic-low input without logic error.
+
+- the symmetry of NMH and NML (both =0.3) shows that the inverter is well balanced likely
+   because   𝑊p/Lp=Wn/Ln.
+
+
+## now we willsee the another image in which we have inc the width of pmos and see what happen 
+
+  <img width="1801" height="1067" alt="Screenshot 2025-10-18 154508" src="https://github.com/user-attachments/assets/40574799-a07d-42b1-9969-2332ab67e783" />
+
+## obseravtion 
 
 
 
+  
+
+  
+  
+
+
+
+
+
+
+
+
+  
+ 
 
 
 

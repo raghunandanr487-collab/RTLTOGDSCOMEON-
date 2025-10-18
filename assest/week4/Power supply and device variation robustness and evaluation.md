@@ -30,6 +30,19 @@
   
 
 
+## table
+
+| **Aspect**                   | **Advantage (✅)**                                                                    | **Disadvantage (❌)**                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| **Power Consumption**        | ↓ Reduces dynamic power (`P = α·C·VDD²·f`) — lower energy usage and heat generation. | –                                                                                            |
+| **Leakage Power**            | ↓ Reduces subthreshold leakage current, improving standby power efficiency.          | –                                                                                            |
+| **Speed / Delay**            | –                                                                                    | ↑ Increases propagation delay (slower operation) because transistor drive current decreases. |
+| **Noise Margin**             | –                                                                                    | ↓ Noise margin reduces — circuit becomes more sensitive to noise and less reliable.          |
+| **Switching Threshold (Vm)** | –                                                                                    | Shifts closer to mid-supply; may cause improper logic levels in cascaded stages.             |
+| **Output Swing**             | –                                                                                    | Output high and low levels may degrade, causing poor logic level separation.                 |
+| **Static Behavior**          | –                                                                                    | Inverter transfer curve becomes less steep → reduced gain and weaker switching.              |
+| **Reliability / Stability**  | ↓ Lower VDD reduces device stress and improves long-term reliability.                | –                                                                                            |
+
 
 
 

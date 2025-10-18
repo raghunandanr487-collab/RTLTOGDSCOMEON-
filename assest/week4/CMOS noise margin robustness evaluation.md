@@ -117,6 +117,65 @@ is reponsiable for the logic one
 - From the above data, we do not need to worry about it if there is a small error in the fabrication process, because you will still get nearly equal NMH and NML values.
 
 
+#  spice simulation 
+
+## it is the file i have used for the simualtion
+
+
+<img width="1128" height="1027" alt="Screenshot 2025-10-18 174804" src="https://github.com/user-attachments/assets/f118ea45-7ff1-4e56-a7a2-e80860aa10dd" />
+
+
+
+
+## graph of the simulation
+
+
+<img width="1739" height="939" alt="Screenshot 2025-10-18 210447" src="https://github.com/user-attachments/assets/2c5dda76-cb7d-4062-b2cd-932d14d87212" />
+
+
+# results images 
+
+<img width="264" height="38" alt="Screenshot 2025-10-18 180027" src="https://github.com/user-attachments/assets/2dfb3749-a46d-4d3a-8142-72af5a06e5b8" />
+
+<img width="324" height="76" alt="Screenshot 2025-10-18 180945" src="https://github.com/user-attachments/assets/3b8327e6-8cee-469b-a71e-3df21421932c" />
+
+- first one is for VMH= 0.776-1.686
+- second one is for VML=0.98-0.104
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

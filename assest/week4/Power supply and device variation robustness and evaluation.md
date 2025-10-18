@@ -75,7 +75,7 @@
 
 - this is shows that how the diffrence are there
 
-# ⚡oxide thinkness variations
+# ⚡Oxide thinkness variations
 
 ## Threshold Voltage Variation
 - Oxide thickness (t_ox) directly affects the MOSFET threshold voltage (V_th).

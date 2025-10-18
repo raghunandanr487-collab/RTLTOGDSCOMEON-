@@ -6,10 +6,10 @@
 
 # noise margin high and noise margin low 
  ## Noise Margin High (NMH):
--The maximum noise voltage that can be added to a logic HIGH input without changing the output logic.
+- The maximum noise voltage that can be added to a logic HIGH input without changing the output logic.
 
 ## Noise Margin Low (NML):
--The maximum noise voltage that can be added to a logic LOW input without changing the output logic.
+- The maximum noise voltage that can be added to a logic LOW input without changing the output logic.
 
 
 ### so now we will see the image of the graphs of invertor with labbled vil,voh,vol,vih,vdd
@@ -88,6 +88,36 @@ is reponsiable for the logic one
 <img width="1837" height="1029" alt="Screenshot 2025-10-18 154541" src="https://github.com/user-attachments/assets/59fe4649-ee24-44a3-8071-816b304b0c4d" />
 
   <img width="1763" height="1027" alt="Screenshot 2025-10-18 154556" src="https://github.com/user-attachments/assets/f323f3b3-ba2d-4d1e-85d2-48cfbf267466" />
+
+
+## observations 
+
+ - now we can see that on increasing only the pmos width we will not get the noise margin high
+   it will become the constant after some time and noise margin of low will start decresing
+   because  the power of the pmos is start dominating and nmos losses it power to hold the zero
+
+ -  so this thing we can clearly see in the graphs as we inc the width then also the NMH remain same and the NML start deceresing.
+      
+## table 
+
+| Wp/Lp | x.Wn/Ln | NMH  | NML  | Vm    |
+| ----- | ------- | ---- | ---- | ----- |
+| Wp/Lp | Wn/Ln   | 0.3  | 0.3  | 0.99V |
+| Wp/Lp | 2Wn/Ln  | 0.38 | 0.3  | 0.97V |
+| Wp/Lp | 3Wn/Ln  | 0.4  | 0.22 | 0.85V |
+| Wp/Lp | 4Wn/Ln  | 0.42 | 0.2  | 0.75V |
+| Wp/Lp | 5Wn/Ln  | 0.45 | 0.18 | 0.67V |
+
+
+## Observations:
+
+- In this table, we can see that there is not much variation of Noise Margin (High and Low) for different values of Vm.
+
+- The value of threshold voltage vm decreases slightly when the ratio of NMOS width to length increases.
+
+- From the above data, we do not need to worry about it if there is a small error in the fabrication process, because you will still get nearly equal NMH and NML values.
+
+
 
 
 

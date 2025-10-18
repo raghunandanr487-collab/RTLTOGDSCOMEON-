@@ -77,8 +77,6 @@
 
 # oxide thinkness variations
 
-## Effects of Oxide Thickness Variation in CMOS:
-
 ## Threshold Voltage Variation
 - Oxide thickness (t_ox) directly affects the MOSFET threshold voltage (V_th).
 - Thicker oxide → higher V_th, thinner oxide → lower V_th.

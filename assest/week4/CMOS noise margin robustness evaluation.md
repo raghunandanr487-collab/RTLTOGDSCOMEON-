@@ -75,6 +75,27 @@
   <img width="1801" height="1067" alt="Screenshot 2025-10-18 154508" src="https://github.com/user-attachments/assets/40574799-a07d-42b1-9969-2332ab67e783" />
 
 ## obseravtion 
+-in this we can see the NMH is  inc becuase we have doublle the width of pmos and we know pmos 
+is reponsiable for the logic one 
+- for the low logic it is still same .
+
+
+  ## now we will see another few more graph also in whcih we will do the tipple ,fouth and fifth width of the pmos and see what will happen
+
+ <img width="1864" height="1043" alt="Screenshot 2025-10-18 154525" src="https://github.com/user-attachments/assets/41029b41-6f6d-4d8c-8672-9ae3c546567e" />
+
+
+<img width="1837" height="1029" alt="Screenshot 2025-10-18 154541" src="https://github.com/user-attachments/assets/59fe4649-ee24-44a3-8071-816b304b0c4d" />
+
+  <img width="1763" height="1027" alt="Screenshot 2025-10-18 154556" src="https://github.com/user-attachments/assets/f323f3b3-ba2d-4d1e-85d2-48cfbf267466" />
+
+
+
+
+
+
+  
+
 
 
 

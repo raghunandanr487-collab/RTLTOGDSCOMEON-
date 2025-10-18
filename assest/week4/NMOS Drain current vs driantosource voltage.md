@@ -115,7 +115,7 @@ downlode by using command : sudo install ngspice
 
 
   - so the first half of the graph is linear region and the another where the curve  is flattened is saturation region
-  - as we can clearly see cheat as we increase the VG s the situation not come easily there will be a more linear region
+  - as we can clearly see cheat as we increase the VGS the saturation not come easily there will be a more linear region
 
 
 ##  🤨 so what happen when the width and length of nmos is increases or decreses there will will change in the graph that we will see in the next 

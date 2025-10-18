@@ -1,14 +1,14 @@
 
-# NOISE MARGIN
+# 🍋‍🟩NOISE MARGIN
 
 - Noise Margin is the maximum noise voltage that can be tolerated by a logic circuit without causing an error in the output logic level.
 -  there are two types of noise margin
 
-# noise margin high and noise margin low 
+# 🔊 noise margin high and noise margin low 
  ## Noise Margin High (NMH):
 - The maximum noise voltage that can be added to a logic HIGH input without changing the output logic.
 
-## Noise Margin Low (NML):
+##  Noise Margin Low (NML):
 - The maximum noise voltage that can be added to a logic LOW input without changing the output logic.
 
 

@@ -23,7 +23,7 @@
 
 ## we can see  other graphs also 
 
-<img width="253" height="199" alt="image" src="https://github.com/user-attachments/assets/bed9de77-479b-4395-8a12-40c49788905f" />
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/bed9de77-479b-4395-8a12-40c49788905f" />
 
 
 

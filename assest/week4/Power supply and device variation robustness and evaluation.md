@@ -108,7 +108,7 @@
 - Oxide thickness variation is a key process variation in advanced CMOS nodes, affecting yield.
  
 
-# spice simualtion
+# 🌶️ spice simualtion
 
 
 
@@ -116,7 +116,7 @@
 
  - in this i have shown when the we increase the width of pmos then what happens and we can see throught table
 
-## table
+##  🪑table
 
 
 | Effect                              | When PMOS Width Increases                |

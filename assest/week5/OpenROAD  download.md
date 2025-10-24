@@ -65,7 +65,7 @@ cd ../..
 ### 4️⃣step4
 #### Patch OpenROAD Source Files to Link spdlog
 
-- Because we manually cloned spdlog (and commented out the system find_package), we must patch      two files to tell CMake how to link the internal files directly
+- Because we manually cloned spdlog (and commented out the system find_package), we must patch two files to tell CMake how to link the internal files directly
 
 - src/CMakeLists.txt (To stop searching for system package)
 - Open the file: nano src/CMakeLists.txt
@@ -75,7 +75,7 @@ cd ../..
 
 - Patch Root CMakeLists.txt (To build the dependency target)
 - Open the file: nano CMakeLists.txt
-- Add the line add_subdirectory(third-party/spdlog) immediately after the existing                 add_subdirectory(third-party) line, and before add_subdirectory(src).
+- Add the line add_subdirectory(third-party/spdlog) immediately after the existing add_subdirectory(third-party) line, and before add_subdirectory(src).
 
 ```bash
 # --- ADD THIS LINE ---
@@ -109,6 +109,23 @@ cmake .. \
 make -j$(nproc)
 sudo make install
 ```
+
+### 👏after these all run command openroad and it will open like this -
+
+<img width="1229" height="823" alt="Screenshot 2025-10-25 033714" src="https://github.com/user-attachments/assets/2b74dabf-f986-4082-bf4e-ed1f97e57a30" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

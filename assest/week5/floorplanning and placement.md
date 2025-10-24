@@ -147,6 +147,9 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 
 
 
+
+
+
 <img width="1856" height="1011" alt="Screenshot 2025-10-23 225225" src="https://github.com/user-attachments/assets/e2230332-a2b4-4855-8721-5f37d7712030" />
 
 ## 🔭Obseravtions 

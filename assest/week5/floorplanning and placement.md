@@ -70,9 +70,9 @@
 
 ## 📏✅Detailed Placement (Legalization): 
 
-Goal: Take the rough locations from global placement and make them legal. This means snapping each cell precisely onto the standard cell rows defined in the floorplan and ensuring no cells overlap.
+- Goal: Take the rough locations from global placement and make them legal. This means snapping each cell precisely onto the standard cell rows defined in the floorplan and ensuring no cells overlap.
 
-Process: Makes small, local adjustments to cell positions while trying to preserve the wire length optimization achieved during global placement. It strictly adheres to the placement grid and design rules.
+- Process: Makes small, local adjustments to cell positions while trying to preserve the wire length optimization achieved during global placement. It strictly adheres to the placement grid and design rules.
 
 
 

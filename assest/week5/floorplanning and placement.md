@@ -69,7 +69,7 @@
 - Process: Uses complex algorithms (like quadratic placement or partitioning). At this stage, cells might overlap or not be perfectly aligned to the rows. It prioritizes optimal positioning based on connections.
 
 ## 📏✅Detailed Placement (Legalization): 
-
+ 
 - Goal: Take the rough locations from global placement and make them legal. This means snapping each cell precisely onto the standard cell rows defined in the floorplan and ensuring no cells overlap.
 
 - Process: Makes small, local adjustments to cell positions while trying to preserve the wire length optimization achieved during global placement. It strictly adheres to the placement grid and design rules.
@@ -113,9 +113,11 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 
 ## now again if we run with the gcd_nangate45_clean.tcl
 
+
 ### power line(shown img)
 
 <img width="1345" height="649" alt="Screenshot 2025-10-23 221602" src="https://github.com/user-attachments/assets/8be6d8f9-a933-48b8-b42c-f1a82c58b36f" />
+
 
 
 ### ground line (pink_line)
@@ -133,12 +135,16 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 ### file_4 flow_global_placement.tcl
 
 <img width="1360" height="1003" alt="Screenshot 2025-10-25 045304" src="https://github.com/user-attachments/assets/6d3d8106-ebe8-403d-bb01-5e1d5f6e4826" />
+
+
 <img width="1856" height="754" alt="Screenshot 2025-10-25 045329" src="https://github.com/user-attachments/assets/310c208c-c044-4ea4-b3f8-cc7dd1a78480" />
 
 
 ### reseult we get 
 
 <img width="845" height="814" alt="Screenshot 2025-10-25 050318" src="https://github.com/user-attachments/assets/b1362a41-742b-40fb-a24b-284fd097e1f0" />
+
+
 
 <img width="1856" height="1011" alt="Screenshot 2025-10-23 225225" src="https://github.com/user-attachments/assets/e2230332-a2b4-4855-8721-5f37d7712030" />
 
@@ -165,6 +171,8 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 ### result we get
 
 <img width="967" height="778" alt="Screenshot 2025-10-25 051321" src="https://github.com/user-attachments/assets/f6a2c71c-3f31-4239-9d6c-da8a3d5b8416" />
+
+
 
 
 <img width="1851" height="1049" alt="Screenshot 2025-10-23 231413" src="https://github.com/user-attachments/assets/e640a19a-76ba-450e-a8d9-2a512dadc0cf" />

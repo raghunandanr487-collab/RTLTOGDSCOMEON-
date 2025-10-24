@@ -75,6 +75,38 @@
 - Process: Makes small, local adjustments to cell positions while trying to preserve the wire length optimization achieved during global placement. It strictly adheres to the placement grid and design rules.
 
 
+## now we will do the floorpalnning and placement in openroad.
+
+### so I have done it for nangate45_clean.tcl
+### file_1 for floorplanning
+
+<img width="847" height="614" alt="Screenshot 2025-10-25 042652" src="https://github.com/user-attachments/assets/8a3d656f-5244-40bd-b2f7-fc2576c76f9e" />
+
+
+### file_2 flow_floorpan.tcl
+
+<img width="829" height="896" alt="Screenshot 2025-10-25 043003" src="https://github.com/user-attachments/assets/564d2889-d34f-4ef6-82b9-0c53e3944a83" />
+
+### run this command in the tereminal 
+
+```bash
+openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl 
+```
+<img width="1413" height="402" alt="Screenshot 2025-10-25 043547" src="https://github.com/user-attachments/assets/5778d02d-7308-4373-b69c-01614ee28b1a" />
+
+### now it will open the openroad software
+
+<img width="1853" height="1005" alt="Screenshot 2025-10-25 043456" src="https://github.com/user-attachments/assets/15fc7517-3659-4a1c-8815-1e9558301a1b" />
+
+
+## Obseravtions 
+- The layout view shows a defined Die Area (outer white box) and Core Area (inner area with rows). Inside the core area, you can clearly see the horizontal Standard Cell Rows (green lines) have been created. This indicates the Floorplan Initialization stage is complete.
+
+- in this we have the basic die core and rows get set .
+
+
+
+
 
 
 

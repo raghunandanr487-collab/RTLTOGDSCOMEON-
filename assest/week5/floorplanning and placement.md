@@ -75,64 +75,65 @@
 - Process: Makes small, local adjustments to cell positions while trying to preserve the wire length optimization achieved during global placement. It strictly adheres to the placement grid and design rules.
 
 
-## now we will do the floorpalnning and placement in openroad.
+## 🛣️now we will do the floorpalnning and placement in openroad.
 
-### so I have done it for gcd_nangate45_clean.tcl
-### file_1 for floorplanning
+### 📍so I have done it for gcd_nangate45_clean.tcl
+
+### 📂file_1 for floorplanning
 
 <img width="847" height="614" alt="Screenshot 2025-10-25 042652" src="https://github.com/user-attachments/assets/8a3d656f-5244-40bd-b2f7-fc2576c76f9e" />
 
 
-### file_2 flow_floorplan.tcl
+### 📂 file_2 flow_floorplan.tcl
 
 <img width="829" height="896" alt="Screenshot 2025-10-25 043003" src="https://github.com/user-attachments/assets/564d2889-d34f-4ef6-82b9-0c53e3944a83" />
 
-### run this command in the tereminal 
+### 🏃‍➡️run this command in the tereminal 
 
 ```bash
 openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl 
 ```
 <img width="1413" height="402" alt="Screenshot 2025-10-25 043547" src="https://github.com/user-attachments/assets/5778d02d-7308-4373-b69c-01614ee28b1a" />
 
-### now it will open the openroad software
+### 😎now it will open the openroad software
 
 <img width="1852" height="1009" alt="Screenshot 2025-10-25 044028" src="https://github.com/user-attachments/assets/537dabc3-7e63-4490-8ca8-1cef47bb1848" />
 
 
-## Obseravtions 
+## 🔭Obseravtions 
 - The layout view shows a defined Die Area (outer white box) and Core Area (inner area with rows). Inside the core area, you can clearly see the horizontal Standard Cell Rows (green lines) have been created. This indicates the Floorplan Initialization stage is complete.
 
 - in this we have the basic die core and rows get set .
 
 
-## now we will run the next stage 
+## ⏭️ now we will run the next stage 
 
-### file_4 flow_pdn.tcl
+### 📂 file_4 flow_pdn.tcl
 
 <img width="1317" height="890" alt="Screenshot 2025-10-25 044310" src="https://github.com/user-attachments/assets/30513068-5307-439a-9309-f7afbbb2712c" />
 
-## now again if we run with the gcd_nangate45_clean.tcl
+##  📂now again if we run with the gcd_nangate45_clean.tcl
 
 
-### power line(shown img)
+### 🔋 power line(shown img)
 
 <img width="1345" height="649" alt="Screenshot 2025-10-23 221602" src="https://github.com/user-attachments/assets/8be6d8f9-a933-48b8-b42c-f1a82c58b36f" />
 
 
 
-### ground line (pink_line)
+###  ⛱️ground line (pink_line)
 
 <img width="533" height="506" alt="Screenshot 2025-10-23 221614" src="https://github.com/user-attachments/assets/e2b6ab9d-ac41-454d-b181-7788d0ced47b" />
 
-## Obseravtions
+## 🔭Obseravtions
 
 - In this we can see we have placed sucessfully power and ground lines on the chip.
 - With the power infrastructure laid out, the standard cell rows (green/blue lines) now have access to power and ground. The design is structurally ready for the Placement stage, where the logic cells will be placed onto these rows and connected to these power lines.
 
 
-## now our next step is the placement stage 
+## ⏭️now our next step is the placement stage 
 
-### file_4 flow_global_placement.tcl
+### 📂 file_4 flow_global_placement.tcl
 
 <img width="1360" height="1003" alt="Screenshot 2025-10-25 045304" src="https://github.com/user-attachments/assets/6d3d8106-ebe8-403d-bb01-5e1d5f6e4826" />
 
@@ -140,7 +141,7 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 <img width="1856" height="754" alt="Screenshot 2025-10-25 045329" src="https://github.com/user-attachments/assets/310c208c-c044-4ea4-b3f8-cc7dd1a78480" />
 
 
-### reseult we get 
+### 🔮reseult we get 
 
 <img width="845" height="814" alt="Screenshot 2025-10-25 050318" src="https://github.com/user-attachments/assets/b1362a41-742b-40fb-a24b-284fd097e1f0" />
 
@@ -148,7 +149,7 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 
 <img width="1856" height="1011" alt="Screenshot 2025-10-23 225225" src="https://github.com/user-attachments/assets/e2230332-a2b4-4855-8721-5f37d7712030" />
 
-## Obseravtions 
+## 🔭Obseravtions 
 
 - in this we can see that all the standered cells are placed but they are overlapping ,becuase we have not done yet the proper detailed placement
 
@@ -159,16 +160,16 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 - The cells appear somewhat clustered towards the center and middle rows, leaving some rows less densely populated. This distribution is determined by the global placement algorithm trying to minimize wire length based on the netlist connections.
 
 
-## now we will do the detailed placement
+## ⏭️now we will do the detailed placement
 
 
 
-### file_5 flow_detalied_placement.tcl
+### 📂 file_5 flow_detalied_placement.tcl
 
 <img width="967" height="641" alt="image" src="https://github.com/user-attachments/assets/ecc8d6d1-58d5-4475-a33f-a11f43e34b6a" />
 
 
-### result we get
+###  🎩result we get
 
 <img width="967" height="778" alt="Screenshot 2025-10-25 051321" src="https://github.com/user-attachments/assets/f6a2c71c-3f31-4239-9d6c-da8a3d5b8416" />
 
@@ -178,7 +179,7 @@ openroad -gui -log gcd_logfile.log gcd_nangate45_clean.tcl
 <img width="1851" height="1049" alt="Screenshot 2025-10-23 231413" src="https://github.com/user-attachments/assets/e640a19a-76ba-450e-a8d9-2a512dadc0cf" />
 
 
-## Observations 
+## 🔭Observations 
 
 - in this we can see that standered cell are not overlapping as it was case in the previous image 
 - The layout view clearly shows the standard cells (small red blocks) placed onto the horizontal standard cell rows (green/blue lines)

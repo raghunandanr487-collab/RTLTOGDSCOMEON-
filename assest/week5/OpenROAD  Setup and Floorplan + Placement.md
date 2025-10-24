@@ -41,7 +41,7 @@ sudo make install
 # Navigate back to the parent directory to start OpenROAD clone
 cd ../..
 ```
-### note- it is end of phase one and in next phase we will clone the openroad and both tools and openroad should built seperatly.
+### 👿note- it is end of phase one and in next phase we will clone the openroad and both tools and openroad should built seperatly.
 
 
 ### 3️⃣step3

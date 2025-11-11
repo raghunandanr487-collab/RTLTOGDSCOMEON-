@@ -1,4 +1,4 @@
-## FLOORPLANING 
+## 🙃FLOORPLANING 
 
 
 - IN THIS WE DIRECTLY LODE THE FILES AND LODE IN THE MAGIC
@@ -17,13 +17,13 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 ```
 
 
-## files we will use 
+## 🗃️ files we will use 
 
 <img width="927" height="1020" alt="Screenshot 2025-10-29 201753" src="https://github.com/user-attachments/assets/008937ee-55f1-40cb-832b-8399b97e7845" />
 
 <img width="877" height="1007" alt="Screenshot 2025-10-30 201831" src="https://github.com/user-attachments/assets/de50c44f-14bc-4fca-b6d8-8a74e6bc5143" />
 
-## results
+## 🍬results
 
 
 <img width="1848" height="993" alt="Screenshot 2025-10-30 224904" src="https://github.com/user-attachments/assets/d9255aae-8ab4-4574-b2c5-5c3a710f0dfd" />
@@ -47,14 +47,14 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 run_placement
 ```
 
-## Results
+## 🍬 Results
 
 <img width="1834" height="971" alt="Screenshot 2025-10-31 174317" src="https://github.com/user-attachments/assets/43a055a8-84d9-4c2f-8db6-3446b0e2e6c4" />
 
 <img width="1824" height="943" alt="Screenshot 2025-10-31 174334" src="https://github.com/user-attachments/assets/d755aa37-12db-4efd-8168-359aec6b6f1f" />
 
 
-## now we will see some theory
+## 🙃🖤now we will see some theory
 
 ![WhatsApp Image 2025-11-11 at 15 14 57_1e5e5880](https://github.com/user-attachments/assets/2d0bd447-0497-495c-bb18-87a06b4be39b)
 
@@ -116,7 +116,7 @@ The final output of the cell design flow is a CDL (Circuit Description Language)
 
 
 
-## graph
+## 📉graph
 
 
 ![WhatsApp Image 2025-11-11 at 15 14 50_d8c7ba2b](https://github.com/user-attachments/assets/b0cf8075-de96-402e-a6fb-8144cfbd54e6)

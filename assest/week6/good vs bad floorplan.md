@@ -56,7 +56,10 @@ run_placement
 
 ## now we will see some theory
 
+![WhatsApp Image 2025-11-11 at 15 14 57_1e5e5880](https://github.com/user-attachments/assets/2d0bd447-0497-495c-bb18-87a06b4be39b)
 
+
+![WhatsApp Image 2025-11-11 at 15 14 56_355b4827](https://github.com/user-attachments/assets/9d4bf8d9-e635-4dd8-b33d-f3c568d6bd0c)
 
 
 
@@ -75,6 +78,60 @@ run_placement
 - All layout shapes must follow DRC to ensure the chip is fabrication-ready and error-free.
 
 
+### Cell Design Flow – Logic to Layout
+
+
+<img width="1206" height="540" alt="image" src="https://github.com/user-attachments/assets/25901ea0-f615-4f43-a3a7-c6616c5ab3f9" />
+
+
+###Cell Design Flow – Logic to Layo
+
+The layout design of a standard cell begins with the transistor-level circuit, representing the logic function using PMOS and NMOS networks.
+
+These transistor networks are often converted into Euler paths and stick diagrams to simplify the layout routing and ensure an optimal, compact structure.
+
+The Process Design Kit (PDK) provides essential inputs such as DRC rules, LVS rules, SPICE models, and library specifications, guiding the layout engineer.
+
+The design process includes circuit design, layout creation, and cell characterization, ensuring the cell meets functional and timing requirements.
+
+The final output of the cell design flow is a CDL (Circuit Description Language) file, which accurately represents the transistor connections for verification and integration.
+
+
+
+![WhatsApp Image 2025-11-11 at 15 14 53_d2ca8898](https://github.com/user-attachments/assets/a6af67cc-408c-41ea-a880-32af62f71330)
+
+
+- The layout of a CMOS logic cell is optimized using Euler paths, which provide the best ordering of transistors to minimize routing complexity.
+
+- By creating Euler paths for both the PMOS and NMOS networks, designers can align diffusion regions, reduce breaks, and make the layout more compact.
+
+- The stick diagram visually represents transistor connections (poly, diffusion, metal) before creating the actual layout, helping to plan the structure efficiently.
+
+- Using the optimized ordering (e.g., A–C–E–F–D–B), the resulting cell layout achieves fewer vias, fewer diffusion breaks, and more regular geometry, which improves performance and manufacturability.
+
+- This process forms a critical part of the cell design flow, allowing the final standard cells to meet electrical, physical, and design-rule requirements.
+
+
+![WhatsApp Image 2025-11-11 at 15 14 51_b26499c8](https://github.com/user-attachments/assets/84d50dbf-833b-4180-a258-f229440b88fb)
+
+
+
+## graph
+
+
+![WhatsApp Image 2025-11-11 at 15 14 50_d8c7ba2b](https://github.com/user-attachments/assets/b0cf8075-de96-402e-a6fb-8144cfbd54e6)
+
+### Timing Characterization – Thresholds and Slew Measurement
+
+- Timing characterization defines how fast a cell responds to input changes by measuring threshold voltages during rising and falling transitions.
+
+- The slew thresholds (slew_low_rise_thr, slew_high_rise_thr, etc.) mark specific voltage points on the input/output waveform used to calculate the slew rate—the transition speed of a signal.
+
+- Similarly, in_rise_thr and in_fall_thr indicate the voltage levels used to detect when an input has effectively switched.
+
+- out_rise_thr and out_fall_thr represent the points where output timing (propagation delay) is measured.
+
+- By analyzing these points on the waveform, the cell’s delay, rise time, fall time, and slew can be accurately characterized for use in timing libraries.
 
 
 

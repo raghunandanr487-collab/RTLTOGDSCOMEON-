@@ -1,24 +1,24 @@
-## pakage 
+## 📦pakage 
 
 - In any embedded board, the component we commonly refer to as “the chip” is actually just the package. The package is a protective enclosure surrounding the real silicon die. The actual manufactured chip (the silicon die) sits at the center of this package, and all external pins are connected to the die through a process called wire bonding, where very fine metal wires form the electrical connections between the die and the package leads.
 
 <img width="473" height="361" alt="image" src="https://github.com/user-attachments/assets/d264af04-ee4b-4e40-8975-876b002a75bc" />
 
 
-## now we will see the chip 
+## 🍪 now we will see the chip 
 
 
 <img width="490" height="313" alt="image" src="https://github.com/user-attachments/assets/bd32d12a-7118-4844-a533-6eb403125e7a" />
 
 
-## Die
+## 🎲 Die
 
 - The die is the actual silicon chip manufactured in the semiconductor fabrication process.
 It contains all the transistors, logic gates, memories, analog circuits, and interconnects that implement the functionality of the IC.
 
 - The die is extremely small and sits at the center of the package.
 
-## pads
+## 🔑 pads
 
 - Pads are the metal contact points placed around the edges of the die.
 Their purpose is to:
@@ -33,7 +33,7 @@ Their purpose is to:
 
 - Each pad is connected to a pin on the chip package.
 
-## Core
+## ⏭️Core
 
 - The core is the main functional area of the chip—it contains:
 
@@ -80,7 +80,7 @@ The syntax and instruction format depend on the CPU architecture.
 
 <img width="1833" height="1162" alt="Screenshot 2025-10-26 170300" src="https://github.com/user-attachments/assets/3a2841a6-6ef0-4c66-a0aa-3eb27380e482" />
 
-## Explanation of the Diagram
+## 🔮 Explanation of the Diagram
 
 - This image shows the complete flow of converting software instructions into actual hardware      behavior inside a processor.
 
@@ -104,7 +104,7 @@ This layout represents the real silicon hardware where transistors, wires, power
 <img width="1835" height="1029" alt="Screenshot 2025-10-26 172027" src="https://github.com/user-attachments/assets/eb3ab6a4-3bbb-45af-ad27-4198be7764ed" />
 
 
-### EDA Tools
+### ⚓ EDA Tools
 - Tools like Qflow, OpenROAD, and OpenLANE are used to automate the ASIC design flow, including synthesis, placement, routing, and physical verification.
 
 ### RTL Designs
@@ -228,7 +228,7 @@ Example: an always block using if/else becomes a set of logic gates and flip-flo
 <img width="1027" height="543" alt="image" src="https://github.com/user-attachments/assets/8950abb4-3691-4d9e-b8fc-32cca85906f1" />
 
 
-## Implementation
+## ❤️‍🩹Implementation
 
 ### Section 1 Tasks
 

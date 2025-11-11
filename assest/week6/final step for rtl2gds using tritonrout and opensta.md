@@ -1,5 +1,5 @@
 
-## Routing 
+## 🛜Routing 
 
 ## Maze Routing – Lee’s Algorithm (1961)
 <img width="1752" height="752" alt="Screenshot 2025-10-31 144723" src="https://github.com/user-attachments/assets/d6430f8e-48ab-4980-850b-9dc7ff58acbd" />
@@ -205,7 +205,7 @@ DRC ensures:
 
 
 
-### TritonRoute
+### 🖤 TritonRoute
 <img width="1395" height="626" alt="Screenshot 2025-10-31 152822" src="https://github.com/user-attachments/assets/4edb53e7-b208-4e5f-87af-154dfc8a3365" />
 
 - Performs the detailed routing stage, converting route guides into actual metal/via routes on the layout.

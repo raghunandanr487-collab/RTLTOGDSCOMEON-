@@ -70,12 +70,86 @@ ext2spice
 <img width="1776" height="989" alt="Screenshot 2025-11-11 161109" src="https://github.com/user-attachments/assets/d0a6143d-f9e7-4450-8fc0-e9114de3cbf6" />
 
 
+<img width="876" height="1021" alt="Screenshot 2025-11-11 161422" src="https://github.com/user-attachments/assets/11d5804b-f316-4e0c-9c20-c514f2aa5f32" />
+
+
+
+
+<img width="799" height="960" alt="Screenshot 2025-11-11 161656" src="https://github.com/user-attachments/assets/4ee405e8-5f4a-4a98-9fa5-4c0d523bec13" />
+
+## results
 
 
 
 
 
 
+## Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
+
+- Link to Sky130 Periphery rules: https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html
+
+  ```bash
+        # Change to home directory
+  cd
+
+  # Command to download the lab files
+  wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+
+  # Since lab file is compressed command to extract it
+  tar xfz drc_tests.tgz
+
+   # Change directory into the lab folder
+   cd drc_tests
+
+  # List all files and directories present in the current directory
+   ls -al
+
+   # Command to view .magicrc file
+     gvim .magicrc
+
+  # Command to open magic tool in better graphics
+  magic -d XR &
+  ```
+
+## this is the file 
+<img width="894" height="1026" alt="Screenshot 2025-11-11 164450" src="https://github.com/user-attachments/assets/f5dc72cb-e7e4-4153-9fa7-09826b6e9b40" />
+
+ ### after running this we get 
+
+<img width="909" height="1031" alt="Screenshot 2025-11-11 165330" src="https://github.com/user-attachments/assets/cf743a56-a4bf-45b3-b87b-60e90e737344" />
+
+
+
+<img width="1435" height="806" alt="Screenshot 2025-11-11 170122" src="https://github.com/user-attachments/assets/b5131437-da45-49da-9b6c-3793d828d64a" />
+
+### error 
+<img width="708" height="608" alt="Screenshot 2025-11-11 190942" src="https://github.com/user-attachments/assets/6a0791be-da4f-4259-805b-89e243a6ef44" />
+
+<img width="878" height="335" alt="Screenshot 2025-11-11 191021" src="https://github.com/user-attachments/assets/8d82baca-baea-4231-ad34-f3541aaefaa7" />
+
+## another file 
+
+<img width="656" height="500" alt="Screenshot 2025-11-11 193849" src="https://github.com/user-attachments/assets/8a84d6c5-95cd-4525-a306-c4268a8d9d10" />
+
+```bash
+   # Loading updated tech file
+tech load sky130A.tech
+
+# Must re-run drc check to see updated drc errors
+drc check
+
+# Selecting region displaying the new errors and getting the error messages 
+drc why
+```
+<img width="880" height="673" alt="Screenshot 2025-11-11 194234" src="https://github.com/user-attachments/assets/79779416-cc9a-4b79-84d4-8c118636d4b9" />
+
+
+
+
+
+
+
+  
 
 
 

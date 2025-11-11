@@ -220,7 +220,109 @@ Example: an always block using if/else becomes a set of logic gates and flip-flo
 - Static Timing Analysis (STA) to verify that the design runs at the designated clock frequency.
 
 
+
+
+
+
+
 <img width="1027" height="543" alt="image" src="https://github.com/user-attachments/assets/8950abb4-3691-4d9e-b8fc-32cca85906f1" />
+
+
+## Implementation
+
+### Section 1 Tasks
+
+- Run the OpenLANE flow for the picorv32a design to perform synthesis and generate all required output files.
+
+- Compute the flip-flop ratio using the formula:
+
+     Flop Ratio = Number of D Flip Flops / Total Number of Cells
+
+     Percentage of DFFs = Flop Ratio × 100
+
+### this the file which we use 
+
+
+<img width="716" height="553" alt="Screenshot 2025-10-27 204850" src="https://github.com/user-attachments/assets/5b4a6ed5-da7c-4f5a-b9e5-b86e690174d4" />
+
+
+<img width="722" height="562" alt="Screenshot 2025-10-29 022332" src="https://github.com/user-attachments/assets/435ac923-7a34-4eda-9b06-30fcacf5a3c6" />
+
+
+<img width="728" height="547" alt="Screenshot 2025-10-29 022513" src="https://github.com/user-attachments/assets/d495f23e-8f32-4f81-ba56-8e3a2abf6472" />
+
+
+### now we wills ee the commands which is used here 
+
+```bash
+ 
+sudo docker run -it --rm \
+-v /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane:/openLANE_flow \
+-v /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks:/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks \
+-e PDK_ROOT=/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks \
+-u $(id -u vsduser):$(id -g vsduser) \
+efabless/openlane:v0.15 \
+```
+
+
+```bash
+# Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+# Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+package require openlane 0.9
+
+# Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+prep -design picorv32a
+
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+# Exit from OpenLANE flow
+exit
+
+# Exit from OpenLANE flow docker sub-system
+exit
+```
+
+
+
+<img width="723" height="454" alt="Screenshot 2025-10-31 170542" src="https://github.com/user-attachments/assets/a9610705-7a3d-474a-9628-3cc7c7d7226c" />
+
+### after running the synthasis 
+
+<img width="897" height="1016" alt="Screenshot 2025-10-29 195807" src="https://github.com/user-attachments/assets/97ce6d0e-edc3-4dec-9871-60fce77a1471" />
+
+
+
+
+### on calculating thde flop ratio 
+
+
+- Flop Ratio = 1613 / 14876 = 0.108429685
+
+- Percentage of DFFs = 0.108429685 × 100 = 10.84296854 %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
